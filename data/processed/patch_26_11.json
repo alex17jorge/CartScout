@@ -1,0 +1,1022 @@
+{
+  "patch": "26.11",
+  "client": [
+    {
+      "name": "Blue Essence Emporium",
+      "changes": [
+        "Bug Fix: Fixed bugs in the Blue Essence Emporium that caused us to disable the purchase of Mystery Icons and Mystery Wards."
+      ]
+    },
+    {
+      "name": "Ranked",
+      "changes": [
+        "Bug Fix: Fixed several issues where players wouldn't receive consolation LP when they were supposed to for terminated matches, AFKs, verified disruptive behavior, etc."
+      ]
+    },
+    {
+      "name": "Ranked Leaderboards",
+      "changes": [
+        "Removed the \"My Leagues\" feature that displays where you are relative to random players in the same tier and division. You can still see how you're doing compared to your friends.",
+        "You'll still be able to see Master+ ladders."
+      ]
+    }
+  ],
+  "game": [
+    {
+      "name": "Clamp Casting",
+      "changes": [
+        "Bug Fix: Adjustments have been made to improve clamp casting. Players will no longer walk slightly backwards when casting with clamp casting enabled. Point and Click players will experience faster casting, and WASD players will experience more consistent casting."
+      ]
+    },
+    {
+      "name": "Role Quests",
+      "changes": [
+        "Midlane Quest",
+        "Bonus attack damage increased to 8% bonus AD from 6% .",
+        "Bonus ability power increased to 8% AP from 6% AP .",
+        "Support Quest",
+        "Bug Fix: Fixed a bug where supports could not undo after purchasing a Control Ward ."
+      ]
+    },
+    {
+      "name": "WASD Controls",
+      "changes": [
+        "Bug Fix: Further improvements have been made to auto attacking. Controls are more responsive when champions start and stop auto attacking the same target, or when frequently stepping in and out of range of the same target.",
+        "Bug Fix: Once the control scheme change time limit has passed, players will no longer be able to swap control schemes even if they have not yet changed their control scheme during the game.",
+        "Bug Fix: Fixed a bug where it was difficult to reset your auto attack with Master Yi's Meditate.",
+        "Bug Fix: Fixed a bug that caused clamp casting to be applied when it shouldn't be for items like ward trinkets and Redemption. This matches the behavior in Point and Click."
+      ]
+    }
+  ],
+  "champions": [
+    {
+      "name": "Brand",
+      "changes": [
+        {
+          "ability": "Stats",
+          "details": [
+            "Base armor reduced to 24 from 27."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Diana",
+      "changes": [
+        {
+          "ability": "Moonsilver Blade",
+          "details": [
+            "Monster damage increased to 270% from 230%."
+          ]
+        },
+        {
+          "ability": "Pale Cascade",
+          "details": [
+            "Shield health ratio increased to 11% bonus health from 9% ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ekko",
+      "changes": [
+        {
+          "ability": "Z-Drive Resonance",
+          "details": [
+            "On-target cooldown reduced to 4 seconds from 5."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elise",
+      "changes": [
+        {
+          "ability": "Rappel",
+          "details": [
+            "Bug Fix: Fixed a bug where she would retain the Rappel ability if she died during the ability cast."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heimerdinger",
+      "changes": [
+        {
+          "ability": "H-28G Evolution Turret",
+          "details": [
+            "Turret attack range increased to 550 from 530.",
+            "New Effect: Turrets now gain 50 bonus range against minions if nothing else is in range.",
+            "Turret vision range increased to 650 from 585."
+          ]
+        },
+        {
+          "ability": "CH-2 Electron Storm Grenade",
+          "details": [
+            "Vision duration increased to 1. 25 seconds from 1."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kassadin",
+      "changes": [
+        {
+          "ability": "Null Sphere",
+          "details": [
+            "Cooldown reduced to 9 / 8. 5 / 8 / 7. 5 / 7 seconds from 10 / 9. 5 / 9 / 8. 5 / 8."
+          ]
+        },
+        {
+          "ability": "Nether Blade",
+          "details": [
+            "Passive base damage increased to 25 from 20."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kindred",
+      "changes": [
+        {
+          "ability": "General",
+          "details": [
+            "Bug Fix: Fixed a bug where her unique run animation would not play while slowed."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lucian",
+      "changes": [
+        {
+          "ability": "General",
+          "details": [
+            "Bug Fix: Fixed a bug where his unique high attack animations were failing to play."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Milio",
+      "changes": [
+        {
+          "ability": "Cozy Campfire",
+          "details": [
+            "Bug Fix: Fixed a bug where the extended range indicator was missing."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mordekaiser",
+      "changes": [
+        {
+          "ability": "Realm of Death",
+          "details": [
+            "Undocumented / Removed: No longer has the immobilizing spell tag."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nami",
+      "changes": [
+        {
+          "ability": "Tidal Wave",
+          "details": [
+            "Bug Fix: Fixed a bug where it dealt double damage to targets right next to her."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Neeko",
+      "changes": [
+        {
+          "ability": "Pop Blossom",
+          "details": [
+            "Undocumented / Bug Fix: The most recent clone created is no longer destroyed at the start of the cast time."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quinn",
+      "changes": [
+        {
+          "ability": "Harrier",
+          "details": [
+            "Bonus monster damage increased to 75 from 50.",
+            "Mark renamed to Harrier from Vulnerable ."
+          ]
+        },
+        {
+          "ability": "Blinding Assault",
+          "details": [
+            "Monster damage increased to 200% from 150%."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Seraphine",
+      "changes": [
+        {
+          "ability": "High Note",
+          "details": [
+            "Radius increased back to 350.",
+            "Once again uses a center range check instead of an edge range check."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shaco",
+      "changes": [
+        {
+          "ability": "Deceive",
+          "details": [
+            "Bug Fix: Fixed a bug where he would break stealth after cancelling a basic attack during Deceive ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Smolder",
+      "changes": [
+        {
+          "ability": "Dragon Practice",
+          "details": [
+            "Super Scorcher Breath base critical strike chance scaling reduced to 25% – 55% (based on critical strike chance) from 40% – 60% . Infinity Edge scaling increased to 0% – 9% (based on critical strike chance) from 0% – 6% .",
+            "Flap, Flap, Flap bonus magic damage reduced to 8% – 12. 8 % (based on critical strike chance) from 12%. New Effect: Flap, Flap, Flap bonus magic damage with Infinity Edge now also scales with 0% – 1. 44 % (based on critical strike chance) ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sylas",
+      "changes": [
+        {
+          "ability": "Hijack",
+          "details": [
+            "Bug Fix: Fixed a bug where he respawns as Shyvana in Dragon Form when dying while polymorphed."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Teemo",
+      "changes": [
+        {
+          "ability": "Stats",
+          "details": [
+            "Armor growth reduced to 4. 5 from 4. 95 ."
+          ]
+        },
+        {
+          "ability": "Toxic Shot",
+          "details": [
+            "On-hit damage bonus AD ratio reduced to 5% bonus AD from 10% bonus AD .",
+            "Poison damage per tick bonus AD ratio reduced to 2. 5 % bonus AD from 5% bonus AD ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Xin Zhao",
+      "changes": [
+        {
+          "ability": "Determination",
+          "details": [
+            "New Effect: Damage now scales with 5% / 10% / 15% / 20% (based on level) AP .",
+            "Heal AP ratio reduced to 45% / 55% / 80% (based on level) AP from 50% / 65% / 90% (based on level) AP ."
+          ]
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "name": "Jungle pets",
+      "changes": [
+        "Bug Fix: Fixed a bug where the jungle pet would miss attacks against Red team's Mini Krugs ."
+      ]
+    },
+    {
+      "name": "Blasting Wand",
+      "changes": [
+        "Now builds into Imperial Mandate ."
+      ]
+    },
+    {
+      "name": "Dream Maker",
+      "changes": [
+        "Blue Dream Bubble damage reduction reduced to 50 – 194 (based on user's level) from 75 – 255 (based on user's level) .",
+        "New Effect: Blue Dream Bubble now affects the next damaging cast instance instead of only the first instance of damage.",
+        "Purple Dream Bubble bonus damage reduced to 40 – 160 (based on user's level) from 50 – 170 (based on user's level) .",
+        "Removed: Purple Dream Bubble no longer triggers on-hit.",
+        "New Effect: Purple Dream Bubble now triggers on damaging attacks and ability. Empowered abilities that apply area damage against non-champions only deal 33. 3 % of the bonus damage."
+      ]
+    },
+    {
+      "name": "Echoes of Helia",
+      "changes": [
+        "Soul Siphon damage as Soul Charges reduced to 30% from 35%."
+      ]
+    },
+    {
+      "name": "Experimental Hexplate",
+      "changes": [
+        "Overdrive bonus attack speed for ranged champions reduced to 35% from 50%.",
+        "Overdrive bonus movement speed for ranged champions reduced to 14% from 20%."
+      ]
+    },
+    {
+      "name": "Fiendish Codex",
+      "changes": [
+        "No longer builds into Imperial Mandate ."
+      ]
+    },
+    {
+      "name": "Gluttonous Greaves",
+      "changes": [
+        "Bug Fix: Fixed a bug where it was named charges instead of stacks when pinged."
+      ]
+    },
+    {
+      "name": "Heartsteel",
+      "changes": [
+        "Colossal Consumption conversion to permanent bonus health increased to 10% from 8%."
+      ]
+    },
+    {
+      "name": "Immortal Path",
+      "changes": [
+        "Bug Fix: Fixed a bug where it was named charges instead of stacks when pinged."
+      ]
+    },
+    {
+      "name": "Imperial Mandate",
+      "changes": [
+        "New Recipe: Blasting Wand + Bandleglass Mirror + 650 = 2400 .",
+        "Old Recipe: Fiendish Codex + Bandleglass Mirror + 500 = 2250 .",
+        "Ability power increased to 65 from 60.",
+        "Ability haste reduced to 15 from 20.",
+        "Base mana regeneration increased to 150% from 125%.",
+        "Removed Unique Passive - Coordinated Fire: Non- basic attack cast instances that slow or immobilize enemy champions mark them for 5 seconds. Allied champions that damage marked enemies consume the mark to deal 10% of the target's current health bonus magic damage (9 second cooldown per target, shared between all users of Imperial Mandate ; starts upon mark application).",
+        "New Unique Passive - Control: Immobilizing abilities gain 15 ability haste.",
+        "New Unique Passive - Command: Immobilizing an enemy champion marks them as Vulnerable for 4 seconds, increasing the damage they from all sources by 6%. Subsequent immobilizes against a target extend the duration of the effect."
+      ]
+    },
+    {
+      "name": "Knight's Vow",
+      "changes": [
+        "Sacrifice damage redirection increased to 14% from 12%.",
+        "Sacrifice healing increased to 12% from 10%."
+      ]
+    },
+    {
+      "name": "Locket of the Iron Solari",
+      "changes": [
+        "Armor increased to 30 from 25.",
+        "Magic resistance increased to 30 from 25."
+      ]
+    },
+    {
+      "name": "Moonstone Renewer",
+      "changes": [
+        "Removed: Starlit Grace no longer has an instance of recursion with heal and shield power.",
+        "New Effect: Starlit Grace bounces now prioritize lower health allies."
+      ]
+    },
+    {
+      "name": "Rapid Firecannon",
+      "changes": [
+        "Bug Fix: Fixed a bug where it wouldn't trigger from ability damage until it was triggered by an attack at least once."
+      ]
+    },
+    {
+      "name": "Shadowflame",
+      "changes": [
+        "Bug Fix: Fixed a bug where it may not amplify certain on hit effects."
+      ]
+    },
+    {
+      "name": "Statikk Shiv",
+      "changes": [
+        "Attack damage increased to 45 from 40."
+      ]
+    },
+    {
+      "name": "Stormrazor",
+      "changes": [
+        "Bug Fix: Fixed a bug where it wouldn't trigger from ability damage until it was triggered by an attack at least once."
+      ]
+    },
+    {
+      "name": "Zeke's Convergence",
+      "changes": [
+        "New Effect: Frostfire Tempest can now stall up to 5 seconds before activation until either a valid enemy is in its radius or the stall period ends."
+      ]
+    }
+  ],
+  "runes": [
+    {
+      "name": "Aftershock",
+      "changes": [
+        "Bonus armor increased to 45 from 35.",
+        "Armor ratio reduced to 75% bonus armor from 80% .",
+        "Bonus magic resistance increased to 45 from 35.",
+        "Magic resistance ratio reduced to 75% bonus magic resistance from 80% ."
+      ]
+    },
+    {
+      "name": "Deathfire Touch",
+      "changes": [
+        "Damage type changed to magic damage from adaptive damage."
+      ]
+    },
+    {
+      "name": "Guardian",
+      "changes": [
+        "Cooldown reduced to 75 – 40 (based on level) seconds from 90 – 40 (based on level) .",
+        "Base shield reduced to 40 – 150 (based on level) from 45 – 180 (based on level) .",
+        "Shield AP ratio reduced 20% AP from 25% AP .",
+        "Shield health ratio increased to 6% bonus health from 5% ."
+      ]
+    },
+    {
+      "name": "Summon Aery",
+      "changes": [
+        "Base shield reduced to 20 – 100 (based on level) from 30 – 100 (based on level) ."
+      ]
+    }
+  ],
+  "buffs": [
+    {
+      "name": "Hunger of the Void",
+      "changes": [
+        "Summoned Voidmite health increased to 100% of melee minion from 60%."
+      ]
+    },
+    {
+      "name": "Touch of the Void",
+      "changes": [
+        "Damage per tick increased to ( 4 / 12 / 16 / 2 / 6 / 8 ) (based on Touch of the Void stacks) from ( 3 / 9 / 12 / 1. 5 / 4. 5 / 6 ) ."
+      ]
+    }
+  ],
+  "summoner_spells": [],
+  "monsters": [],
+  "aram_mayhem": [
+    {
+      "category": null,
+      "entries": [
+        {
+          "name": "Gwen",
+          "changes": [
+            "Damage Dealt: 102% ⇒ 100%"
+          ]
+        }
+      ]
+    },
+    {
+      "category": null,
+      "entries": [
+        {
+          "name": "Vayne",
+          "changes": [
+            "Damage Dealt: 105% ⇒ 100%",
+            "Damage Taken: 95% ⇒ 100%"
+          ]
+        }
+      ]
+    },
+    {
+      "category": null,
+      "entries": [
+        {
+          "name": "Xayah",
+          "changes": [
+            "Damage Dealt: 105% ⇒ 100%",
+            "AS Scaling: +3% ⇒ 0%"
+          ]
+        }
+      ]
+    },
+    {
+      "category": null,
+      "entries": [
+        {
+          "name": "Kalista",
+          "changes": [
+            "Damage Dealt: 110% ⇒ 105%",
+            "Damage Taken: 90% ⇒ 95%"
+          ]
+        }
+      ]
+    },
+    {
+      "category": null,
+      "entries": [
+        {
+          "name": "Fizz",
+          "changes": [
+            "Damage Dealt: 105% ⇒ 100%",
+            "Damage Taken: 95% ⇒ 100%",
+            "Tenacity: 10% ⇒ 0%"
+          ]
+        }
+      ]
+    },
+    {
+      "category": null,
+      "entries": [
+        {
+          "name": "Tristana",
+          "changes": [
+            "Damage Dealt: 105% ⇒ 100%",
+            "Damage Taken: 95% ⇒ 100%"
+          ]
+        }
+      ]
+    },
+    {
+      "category": null,
+      "entries": [
+        {
+          "name": "Twitch",
+          "changes": [
+            "Damage Taken: 95% ⇒ 100%"
+          ]
+        }
+      ]
+    },
+    {
+      "category": null,
+      "entries": [
+        {
+          "name": "Smolder",
+          "changes": [
+            "Damage Taken: 102% ⇒ 100%"
+          ]
+        }
+      ]
+    },
+    {
+      "category": null,
+      "entries": [
+        {
+          "name": "Varus",
+          "changes": [
+            "Damage Taken: 105% ⇒ 100%"
+          ]
+        }
+      ]
+    },
+    {
+      "category": null,
+      "entries": [
+        {
+          "name": "Samira",
+          "changes": [
+            "Damage Taken: 105% ⇒ 100%"
+          ]
+        }
+      ]
+    },
+    {
+      "category": null,
+      "entries": [
+        {
+          "name": "Fiddlesticks",
+          "changes": [
+            "Damage Dealt: 95% ⇒ 100%",
+            "Damage Taken: 105% ⇒ 100%"
+          ]
+        }
+      ]
+    },
+    {
+      "category": null,
+      "entries": [
+        {
+          "name": "Bugfixes",
+          "changes": [
+            "Fixed a bug where Graves would deal obscene amounts of damage with Marksmage.",
+            "Fixed a bug where Veil of Warding went on cooldown on respawn.",
+            "Fixed a bug where Viego could be unable to complete Icathia's Fall if he possessed an enemy with the quest.",
+            "Fixed Phenomenal Evil not granting 40 AP if chosen after the first Augment.",
+            "Fixed Ashe Q not apply Marksmage.",
+            "Fixed Smolder Q being unable to be cast during E with certain Augments.",
+            "Fixed Aurelion Sol not being properly charged double mana for his Q with Overflow.",
+            "Demon's Dance no longer grants health based on Stat Anvils instead of just Augments.",
+            "Fixed a bug where Poros from Poro Blaster could see into Brush.",
+            "Fixed a bug where if your snowball Augments were removed by Pandora's box, your snowball cooldown would be drastically longer than intended.",
+            "Fixed a bug where you could overwrite Clown College's summoner spell if you used Snowball while selecting it.",
+            "Fixed a bug where Neeko could not activate Ultimate Awakening if she ulted while disguised as a non-champion.",
+            "Fixed a bug where Upgrade: Thornmail allowed you to buy unlimited Thornmails.",
+            "Fixed a bug where Jax W would not trigger Marksmage.",
+            "Fixed a bug where Stuck in Here With Me triggered on Aatrox's death while using R.",
+            "Fixed a bug where Ezreal Q did not trigger Typhoon.",
+            "Fixed a bug where Illaoi E scaled with Minionmancer."
+          ]
+        }
+      ]
+    }
+  ],
+  "arena": [
+    {
+      "category": "Augments",
+      "entries": [
+        {
+          "name": "Laser Eyes",
+          "changes": [
+            "Damage ramping fall-off after not looking at a target: 0.3s ⇒ 0.6s"
+          ]
+        },
+        {
+          "name": "Contract Killer",
+          "changes": [
+            "Damage Amp: 20% / 30% ⇒ 15%",
+            "Gold Amp: 150 ⇒ 150 / 200"
+          ]
+        },
+        {
+          "name": "Bounce of the Poro King",
+          "changes": [
+            "Cooldown: 75s ⇒ 30s"
+          ]
+        },
+        {
+          "name": "Dashing",
+          "changes": [
+            "Ability Haste: 200 / 275 / 350 ⇒ 200 / 325",
+            "Max levels: 3 ⇒ 2"
+          ]
+        },
+        {
+          "name": "Deft",
+          "changes": [
+            "Attack Speed: 0% / 75% / 120% ⇒ 60% / 80% / 130%"
+          ]
+        },
+        {
+          "name": "Despoil",
+          "changes": [
+            "Curse per dash: 2 ⇒ 5"
+          ]
+        },
+        {
+          "name": "Curse Augments",
+          "changes": [
+            "Curse cap per curse Augment: 20 ⇒ 10"
+          ]
+        },
+        {
+          "name": "Donation",
+          "changes": [
+            "Gold Granted: 1750 ⇒ 2000"
+          ]
+        },
+        {
+          "name": "Get Excited!",
+          "changes": [
+            "Buff duration: 6s ⇒ 8s",
+            "Attack Speed: 15% ⇒ 30 / 60%"
+          ]
+        },
+        {
+          "name": "Kill Secured",
+          "changes": [
+            "Movement speed: 60% ⇒ 100%"
+          ]
+        },
+        {
+          "name": "Quest: Icathia's Fall",
+          "changes": [
+            "Bami's Cinder HP: 150 ⇒ 550",
+            "Void Immolation burn: 2.5% ⇒ 4%"
+          ]
+        },
+        {
+          "name": "Lightning Strikes",
+          "changes": [
+            "Attack Speed increase: 15% / 25% ⇒ 20% / 30%"
+          ]
+        },
+        {
+          "name": "Shrink Engine",
+          "changes": [
+            "Stacks lost on death: 50% / 0% ⇒ 25% / 0%",
+            "Haste per stack: 8 ⇒ 8 / 10",
+            "Movement Speed per stack: 10% ⇒ 1% / 1.5%"
+          ]
+        },
+        {
+          "name": "Sonic Boom",
+          "changes": [
+            "Radius: 450 / 700 ⇒ 500",
+            "Slow Duration: 2 / 3 ⇒ 1.5",
+            "Slow Amount: 30% ⇒ 30 / 60"
+          ]
+        },
+        {
+          "name": "Upgrade Hubris",
+          "changes": [
+            "Heal per stack: 1% ⇒ 3%"
+          ]
+        },
+        {
+          "name": "Clothesline",
+          "changes": [
+            "Lv2 HP Ratio: 7.5% ⇒ 6.5%",
+            "AP Ratio: 7% ⇒ 6%",
+            "AD Ratio: 9% ⇒ 8%"
+          ]
+        },
+        {
+          "name": "Crack Open That Egg",
+          "changes": [
+            "Damage multiplier: 100% / 200% ⇒ 100% / 150%"
+          ]
+        },
+        {
+          "name": "Big Dragon Energy",
+          "changes": [
+            "Damage multiplier: 200% ⇒ 150%"
+          ]
+        },
+        {
+          "name": "Magic Missile",
+          "changes": [
+            "Level 2 Base Missile count: 5 ⇒ 3"
+          ]
+        },
+        {
+          "name": "Magical Girl",
+          "changes": [
+            "Initial Star Land Time: 15s ⇒ 20s"
+          ]
+        },
+        {
+          "name": "Nesting Doll",
+          "changes": [
+            "Revive HP: 80% ⇒ 70%"
+          ]
+        },
+        {
+          "name": "Phenomenal Evil",
+          "changes": [
+            "Max level: 2 ⇒ 3"
+          ]
+        },
+        {
+          "name": "Protein Shake",
+          "changes": [
+            "Conversion Rate: 35% ⇒ 25%",
+            "Heal Shield Power: 25 ⇒ 15"
+          ]
+        },
+        {
+          "name": "Zealot",
+          "changes": [
+            "Attack speed: 35% ⇒ 25%",
+            "Crit chance: 25% ⇒ 12.5%"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Champions",
+      "entries": [
+        {
+          "name": "Kalista",
+          "changes": [
+            "Q Total AD ratio: 135% ⇒ 105%",
+            "E AD Ratio per Additional Stack: 15 - 35% ⇒ 20% - 50%"
+          ]
+        },
+        {
+          "name": "Warwick",
+          "changes": [
+            "E CD: 18 - 14 ⇒ 15 - 11",
+            "R Base Damage: 175 / 300 / 425 ⇒ 175 / 350 / 525"
+          ]
+        },
+        {
+          "name": "Karthus",
+          "changes": [
+            "R cooldown: 60 ⇒ 120 / 100 / 80",
+            "AP Ratio: 100% ⇒ 90%"
+          ]
+        },
+        {
+          "name": "Master Yi",
+          "changes": [
+            "R Duration: 7 ⇒ 5",
+            "Refresh Duration: 7 ⇒ 5",
+            "Cooldown refund: 70% ⇒ 50%"
+          ]
+        },
+        {
+          "name": "Soraka",
+          "changes": [
+            "Q Heal AP ratio: 45% ⇒ 30%",
+            "Q Cooldown: 5 ⇒ 9 - 5"
+          ]
+        },
+        {
+          "name": "Swain",
+          "changes": [
+            "R Health per tick: 10 / 15 / 20 ⇒ 7.5 / 15 / 22.5",
+            "R Damage per tick: 10 / 15 / 20 ⇒ 7.5 / 12.5 / 17.5"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Systems",
+      "entries": [
+        {
+          "name": "Combo Breaker",
+          "changes": [
+            "CC trigger window: 4 seconds ⇒ 3 seconds"
+          ]
+        },
+        {
+          "name": "Bulwark Blossom",
+          "changes": [
+            "No longer receives additional damage from on hit effects"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Items",
+      "entries": [
+        {
+          "name": "Diamond-Tipped Spear",
+          "changes": [
+            "Attack speed: 30%⇒ 40%"
+          ]
+        },
+        {
+          "name": "Hexbolt Companion",
+          "changes": [
+            "Attack speed: 75%⇒ 50%",
+            "Movespeed: 4%⇒ 6%",
+            "REMOVED   Health: Removed",
+            "Attack Damage: 70"
+          ]
+        },
+        {
+          "name": "Hexoptics C44",
+          "changes": [
+            "AD: 50 ⇒ 55",
+            "Buff duration: 10s ⇒ 15s"
+          ]
+        },
+        {
+          "name": "Immortal Shieldbow",
+          "changes": [
+            "Shield: 400-700 ⇒ 400 - 1000"
+          ]
+        },
+        {
+          "name": "Infinity Edge",
+          "changes": [
+            "Crit Damage Multiplier: 40%⇒ 30%",
+            "Attack Damage: 55⇒ 75"
+          ]
+        },
+        {
+          "name": "Statik Shiv",
+          "changes": [
+            "Damage: 60 ⇒ 80 – 160"
+          ]
+        },
+        {
+          "name": "Kinkou Jitte",
+          "changes": [
+            "Reverted to its previous version where only one mark is active at a time"
+          ]
+        },
+        {
+          "name": "Kraken Slayer",
+          "changes": [
+            "AD: 40 ⇒ 50"
+          ]
+        },
+        {
+          "name": "Locket of the Iron Solari",
+          "changes": [
+            "Shield Amount: 600 - 1200 ⇒ 300 - 900",
+            "*** Now has reduced effectiveness for 20 seconds after being healed"
+          ]
+        },
+        {
+          "name": "Mikael's Blessing",
+          "changes": [
+            "Heal & Shield Power: 16% ⇒ 12%"
+          ]
+        },
+        {
+          "name": "Redemption",
+          "changes": [
+            "Now has reduced effectiveness for 8 seconds after being healed",
+            "Heal & Shield Power: 16% ⇒ 12%"
+          ]
+        },
+        {
+          "name": "Stormrazor",
+          "changes": [
+            "Damage: 100 ⇒ 100 – 250",
+            "Movement speed duration: 1.5s ⇒ 2s"
+          ]
+        },
+        {
+          "name": "Terminus",
+          "changes": [
+            "Attack speed: 25% ⇒ 40%"
+          ]
+        },
+        {
+          "name": "Wit's End",
+          "changes": [
+            "Magic Resist: 40-45"
+          ]
+        },
+        {
+          "name": "Wordless Promise",
+          "changes": [
+            "AP Share: 20% ⇒ 15%",
+            "AH Share: 20% ⇒ 15%",
+            "Cooldown: 10⇒ 60",
+            "Heal & Shield Power: 25% ⇒ 15%"
+          ]
+        },
+        {
+          "name": "Dawncore",
+          "changes": [
+            "Heal & Shield Power: 16% ⇒ 12%"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Guest of Honors",
+      "entries": [
+        {
+          "name": "Kayle: Divine Ascent",
+          "changes": [
+            "Gold Gain: 1000 ⇒ 1500",
+            "Final Reward (round 10) random augment level: 1 ⇒ 2"
+          ]
+        },
+        {
+          "name": "NEW - Nilah: Joyful Delight",
+          "changes": [
+            "Reduce the price of Legendary Item Anvils by 500 gold",
+            "While hotstreaking, gain bonus rerolls"
+          ]
+        },
+        {
+          "name": "NEW - Vayne: Tools of the Hunt",
+          "changes": [
+            "Gain from a select few \"tool\" augments"
+          ]
+        },
+        {
+          "name": "NEW - Yone: Inner Demon",
+          "changes": [
+            "Vote for your team to ally with the demons or demon hunters",
+            "Hunters gain gold whenever they defeat a demon team",
+            "Demons gain an augment level whenever a hunter team is eliminated"
+          ]
+        }
+      ]
+    },
+    {
+      "category": null,
+      "entries": [
+        {
+          "name": "Bugfixes",
+          "changes": [
+            "Fixed a bug where Chauffeur was spawning players near the enemy team",
+            "Fixed Fulmination",
+            "Fixed a bug where Mutation augments transforming into Stats on Stats (on Stats (on Stats)) will allow players to stack Shardholder bonuses",
+            "Fixed a bug where Gamba Anvil was not reducing the cost of Stat Anvils correctly",
+            "Fixed a bug where Chain Lightnings didn't have VFX",
+            "Fixed a bug where Upgrade: Collector was not increasing execution threshold",
+            "Fixed a bug where the cost of Prismatic Items was increasing when Viego possesses an enemy going into the next shopping round",
+            "Fixed a bug where Despoil was granting stacks when casting a dash or blink next to the Guest of Honor podium if a Guest of Honor is active",
+            "Fixed a bug where Garen's Judgement (E) wasn't applying stacks for Weighted Popoffs",
+            "Fixed a bug where buying and refunding Gluttonous Greaves was granting stack per refund"
+          ]
+        }
+      ]
+    }
+  ]
+}

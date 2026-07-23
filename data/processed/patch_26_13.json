@@ -1,0 +1,789 @@
+{
+  "patch": "26.13",
+  "client": [
+    {
+      "name": "Discord Integration",
+      "changes": [
+        "As a reminder, in Discord supported regions, you can now connect your Riot and Discord accounts to jump into game with your Discord friends faster. Linking your accounts lets you invite Discord friends straight into your party, copy a lobby link to share with your server, or see which of your friends are playing so you can get into a lobby with them.",
+        "You can connect your Riot and Discord accounts in the League client, through Discord, from your account page."
+      ]
+    },
+    {
+      "name": "Ranked",
+      "changes": [
+        "Ranked 5s are back. On June 26, Ranked 5s will be live at 8 pm! Tournament Draft, double the stakes, no restrictions on who can play with each other, and unique rewards."
+      ]
+    },
+    {
+      "name": "Reporting",
+      "changes": [
+        "Player DMs have long been a gap in our reporting coverage, which has allowed bad actors to use direct messages as a place for chat toxicity with impunity. We are closing that loophole in this patch by adding a report menu directly into your chat interface. You can report and/or block a player at the same time by selecting the report button on the chat header, right-clicking the chat dialogue to summon the context menu, or from the block menu. Blocking a player means that DMs can no longer be exchanged. However, message history will persist during the same session after blocking or being blocked, so that players can no longer abuse the block function as a way to avoid being reported.",
+        "Once reported, we'll be able to view both sides of the conversation and take action where appropriate. All reported direct message data is handled securely and used strictly for moderation purposes. While we hope you don't have to use this feature often, this tool ensures accountability extends to all player communications in League"
+      ]
+    }
+  ],
+  "game": [
+    {
+      "name": "Last Hit Indicators",
+      "changes": [
+        "We're going to be enabling Last Hit Indicators for Normal Draftgames. This feature has been live in Swiftplay & Co-op vs. AI for a while, and we've seen it result in new players being more successful at last-hitting than before. These players are now graduating into Normals & Ranked and are interested in continuing to use them."
+      ]
+    }
+  ],
+  "champions": [
+    {
+      "name": "Aphelios",
+      "changes": [
+        {
+          "ability": "Calibrum",
+          "details": [
+            "Bonus AD ratio increased to 15% bonus AD from 10% ."
+          ]
+        },
+        {
+          "ability": "Onslaught",
+          "details": [
+            "AD ratio increased to 20% – 41% (based on level) AD from 19% – 40% (based on level) AD ."
+          ]
+        },
+        {
+          "ability": "Duskwave",
+          "details": [
+            "Bonus AD ratio increased to 15% – 21% (based on level) bonus AD from 10% – 16% (based on level) ."
+          ]
+        },
+        {
+          "ability": "Sentry",
+          "details": [
+            "Bonus AD ratio increased to 34% – 52% (based on level) bonus AD from 30% – 48% (based on level) ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bard",
+      "changes": [
+        {
+          "ability": "Traveler's Call",
+          "details": [
+            "Base Meep damage reduced to 30 from 35.",
+            "Meep damage per 5 Chimes reduced to 6 from 10."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brand",
+      "changes": [
+        {
+          "ability": "Stats",
+          "details": [
+            "Base mana regeneration increased to 11 from 9."
+          ]
+        },
+        {
+          "ability": "Blaze",
+          "details": [
+            "Base detonation damage reduced to 6% – 12% (based on level) of target's maximum health from 8% – 12% (based on level) ."
+          ]
+        },
+        {
+          "ability": "Conflagration",
+          "details": [
+            "Mana cost increased to 90 at all ranks from 70 / 75 / 80 / 85 / 90."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cassiopeia",
+      "changes": [
+        {
+          "ability": "Stats",
+          "details": [
+            "Health growth reduced to 98 from 104."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Diana",
+      "changes": [
+        {
+          "ability": "Moonfall",
+          "details": [
+            "Bug Fix: Fixed a bug where the VFX may not play properly around different areas of the map."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Draven",
+      "changes": [
+        {
+          "ability": "Stand Aside",
+          "details": [
+            "Cooldown reduced to 16 / 15 / 14 / 13 / 12 seconds from 18 / 17 / 16 / 15 / 14."
+          ]
+        },
+        {
+          "ability": "Whirling Death",
+          "details": [
+            "Damage modifier changed to 100% – 50% (based on enemies hit) from 100% – 40% (based on enemies hit) ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kai'Sa",
+      "changes": [
+        {
+          "ability": "Void Seeker",
+          "details": [
+            "Cooldown reduced to 20 / 18. 5 / 17 / 15. 5 / 14 seconds from 22 / 20 / 18 / 16 / 14."
+          ]
+        },
+        {
+          "ability": "Killer Instinct",
+          "details": [
+            "Base shield increased to 100 / 150 / 200 from 70 / 90 / 110."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "K'Sante",
+      "changes": [
+        {
+          "ability": "Footwork",
+          "details": [
+            "Base shield reduced to 70 / 112. 5 / 155 / 197. 5 / 240 from 80 / 120 / 160 / 200 / 240.",
+            "Bonus health ratio reduced to 13. 5 % bonus health from 15% ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LeBlanc",
+      "changes": [
+        {
+          "ability": "Mimic: Sigil of Malice",
+          "details": [
+            "Base damage increased to 70 / 150 / 230 from 70 / 140 / 210.",
+            "Mark base damage increased to 140 / 300 / 460 from 140 / 280 / 420."
+          ]
+        },
+        {
+          "ability": "Mimic: Distortion",
+          "details": [
+            "Base damage increased to 150 / 315 / 480 from 150 / 300 / 450."
+          ]
+        },
+        {
+          "ability": "Mimic: Ethereal Chains",
+          "details": [
+            "Base damage increased to 70 / 150 / 230 from 70 / 140 / 210.",
+            "Fracture base damage increased to 140 / 300 / 460 from 140 / 280 / 420."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Locke",
+      "changes": [
+        {
+          "ability": "Silver Stake - Innate",
+          "details": [
+            "Innate: Locke's basic attacks deal 5 – 40 (based on level) (+ 10% AP) bonus magic damage on-hit , increased by 0% – 100% (based on target's missing health) , up to 10 – 80 (based on level) (+ 20% AP) ."
+          ]
+        },
+        {
+          "ability": "Ritual Nails - Q",
+          "details": [
+            "Active: Locke hurls a nail in the target direction that deals 50 / 60 / 70 / 80 / 90 (+ 20% AP) magic damage to enemies hit, slows them by 25% for 1 second, and applies a stack of Soul Nails for 4 seconds, refreshing on subsequent applications and stacking up to 3 times. Against targets with at least 2 Soul Nails stacks, the slow is increased to 60% and lasts for 2 seconds. Ritual Nails can be recast twice more within 5 seconds of the activation at no additional cost, with a 0. 5 -second static cooldown between casts.",
+            "Recast: Locke mimics the first cast's effects. For each recast not used when Ritual Nails ends, 20% – 35% (based on level) of the ability's cooldown and mana cost is refunded, up to a 40% – 70% (based on level) refund for two remaining recasts.",
+            "Locke's next damaging basic attack or Ashen Pursuit against an enemy with Soul Nails stacks consumes them all to deal 20 / 30 / 40 / 50 / 60 (+ 25 / 27. 5 / 30 / 32. 5 / 35% AP) bonus magic damage for each stack. This damage is increased by 20% and 40% for two and three Soul Nails stacks respectively.",
+            "Cost: 70 mana.",
+            "Cooldown: 10 / 9 / 8 / 7 / 6 seconds.",
+            "Cast Time: 0. 25 seconds, Target Range: 950, Width: 100."
+          ]
+        },
+        {
+          "ability": "Soul Ignition - W",
+          "details": [
+            "Active: Locke ignites his soul for 6 seconds, gaining 40% – 70% (based on level) bonus attack speed and 40 / 45 / 50 / 55 / 60% (+ 2% per 100 AP) bonus movement speed for the duration, with the latter decaying to 20% over 1 second after 1. 5 seconds have elapsed. While active, Locke also stores 40 / 80 / 120 / 160 / 200 (+ 120% AP) of grey health on his health bar equal to 100% of the post-mitigation damage he takes from enemy champions , up to a cap, plus the total amount of health lost from Soul Ignition's health cost . This is increased by up to 40 – 200 (based on level) (+ 20% AP) based on his missing health and Soul Ignition's elapsed duration.",
+            "After 0. 5 seconds, Soul Ignition can be recast within the duration, and does so automatically afterwards.",
+            "Recast: Locke ends Soul Ignition and consumes his current grey health to heal for the same amount.",
+            "Soul Ignition's recast can be used while affected by cast-inhibiting crowd control .",
+            "Initial Cost: 50 / 55 / 60 / 65 / 70 mana.",
+            "Cost: 0. 5 % current health per 0. 25 seconds for 6 seconds.",
+            "Cooldown: 18 / 17 / 16 / 15 / 14 seconds.",
+            "Cast Time: None."
+          ]
+        },
+        {
+          "ability": "Ashen Pursuit - E",
+          "details": [
+            "Active: Locke blinks to the target location, dealing 40 / 50 / 60 / 70 / 80 (+ 40% AP) magic damage to all nearby enemies upon arrival.",
+            "For the next 4 seconds, Locke gains 275 bonus range and can declare an attack command (default: MB2 / right-click) against an enemy unit. After 0. 1 seconds or if the declared attack target is within his attack range, Locke ends Ashen Pursuit and dashes in the target's direction, dealing 40 / 60 / 80 / 100 / 120 (+ 40% AP) magic damage to enemies he passes through as well as those around him, and applying on-hit effects to the primary target if they were hit.",
+            "Scoring a takedown against an enemy champion resets Ashen Pursuit's cooldown .",
+            "Locke loses the bonus attack range and cannot perform the dash while he is immobilized ( excluding berserk and taunt ) or grounded .",
+            "Cost: 30 mana.",
+            "Cooldown: 10 seconds.",
+            "Cast Time: 0. 5 seconds, Target Range: 375 , Queue Threshold: 0. 175 seconds."
+          ]
+        },
+        {
+          "ability": "Purgatory - R",
+          "details": [
+            "Active: Locke throws a totem artifact that travels to the target location over 0. 5 seconds. After a 0. 25 -second delay of its landing, the totem rises into the air and fires latching nails onto all enemies around it, dealing them 150 / 225 / 300 (+ 60% AP) magic damage , slowing them by 99% decaying over 2 seconds, and marking enemy champions hit for 5 seconds. Marked enemies are executed below 10 / 11 / 12% (+ 0. 5 % per Sealed Champion stack) of their maximum health . Successful executions refresh the duration of the mark on all affected targets.",
+            "At the end of the mark's duration, if at least one champion was executed, the totem seals away the souls of all executed champions and drops itself onto the ground, both over 2. 25 seconds. It then remains on the ground for a duration equal to Purgatory's remaining cooldown , but for no less than 10 seconds. Locke can retrieve it by moving near it. Upon retrieving the totem, Purgatory's current cooldown is reduced by 20% for each champion sealed, and Locke gains a Sealed Champion stack per champion.",
+            "Cost: 100 mana.",
+            "Cooldown: 120 / 100 / 80 seconds.",
+            "Cast Time: 0. 5 seconds, Target Range: 950, Effect Radius: 400, Queue Threshold: 0. 5 seconds."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Olaf",
+      "changes": [
+        {
+          "ability": "Undertow",
+          "details": [
+            "Bonus monster damage increased to 20 / 45 / 70 / 95 / 120 from 20 / 35 / 50 / 65 / 80."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Poppy",
+      "changes": [
+        {
+          "ability": "Hammer Shock",
+          "details": [
+            "Monster damage cap increased to 75 / 105 / 135 / 165 / 195 from 50 / 80 / 110 / 140 / 170."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Qiyana",
+      "changes": [
+        {
+          "ability": "Edge of Ixtal",
+          "details": [
+            "Monster damage increased to 175% from 155%."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rek'Sai",
+      "changes": [
+        {
+          "ability": "Furious Bite",
+          "details": [
+            "Base damage reduced to 70 / 95 / 120 / 145 / 170 from 80 / 108 / 136 / 164 / 192.",
+            "Bonus AD ratio reduced to 60% bonus AD from 64% .",
+            "Maximum Fury damage modifier reduced to 120% from 125%. Increased base damage reduced to 84 / 114 / 144 / 174 / 204 from 100 / 135 / 170 / 205 / 240. Increased bonus AD ratio reduced to 72% bonus AD from 80% ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rumble",
+      "changes": [
+        {
+          "ability": "Flamespitter",
+          "details": [
+            "Base damage per tick reduced to 4. 17 / 6. 25 / 8. 33 / 10. 42 / 12. 5 from 5 / 7. 08 / 9. 17 / 11. 25 / 13. 33 .",
+            "AP ratio per tick increased to 8. 75 % AP from 8. 333 % AP ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Senna",
+      "changes": [
+        {
+          "ability": "General",
+          "details": [
+            "Critical damage modifier reduced to 85% from 90%."
+          ]
+        },
+        {
+          "ability": "Absolution",
+          "details": [
+            "Minions and lessers monsters Senna kill Mist Wraith drop chance reduced to 5% from 10%.",
+            "Lesser minions and lesser monsters killed by allied Mist Wraith drop chance increased to 32% from 28%."
+          ]
+        },
+        {
+          "ability": "Piercing Darkness",
+          "details": [
+            "Cooldown refund changed to on-attack from on-hit."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sion",
+      "changes": [
+        {
+          "ability": "Decimating Smash",
+          "details": [
+            "Minimum base damage reduced to 30 / 45 / 60 / 75 / 90 from 40 / 60 / 80 / 100 / 120."
+          ]
+        },
+        {
+          "ability": "Soul Furnace",
+          "details": [
+            "Mana cost increased to 75 / 80 / 85 / 90 / 95 from 65 / 70 / 75 / 80 / 85."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vex",
+      "changes": [
+        {
+          "ability": "Looming Darkness",
+          "details": [
+            "Cooldown reduced to 12 seconds from 13."
+          ]
+        },
+        {
+          "ability": "Shadow Surge",
+          "details": [
+            "Reset time window increased to 8 seconds from 6."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zaahen",
+      "changes": [
+        {
+          "ability": "Dreaded Return",
+          "details": [
+            "Cooldown reduced to 14 / 13. 5 / 13 / 12. 5 / 12 seconds from 16 / 15 / 14 / 13 / 12."
+          ]
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "name": "Doran's Helm",
+      "changes": [
+        "Armor reduced to 8 from 10.",
+        "Magic resistance reduced to 8 from 10.",
+        "Health increased to 150 from 140."
+      ]
+    },
+    {
+      "name": "Imperial Mandate",
+      "changes": [
+        "New Recipe: Amplifying Tome + Bandleglass Mirror + Amplifying Tome + 700 = 2400 .",
+        "Old Recipe: Blasting Wand + Bandleglass Mirror + 650 = 2400 .",
+        "Ability power reduced to 60 from 65.",
+        "Control ability haste increased to 20 from 15.",
+        "Command Vulnerable debuff increased to 7% from 6%."
+      ]
+    },
+    {
+      "name": "Serpent's Fang",
+      "changes": [
+        "Bug Fix: Fixed a bug where Shield Reaver damage applied Omnivamp."
+      ]
+    }
+  ],
+  "runes": [],
+  "buffs": [],
+  "summoner_spells": [],
+  "monsters": [
+    {
+      "name": "Baron Nashor",
+      "changes": [
+        "Bug Fix: Fixed a bug where max stacks of Void Corruption was higher than intended."
+      ]
+    }
+  ],
+  "aram_mayhem": [
+    {
+      "category": "Augments",
+      "entries": [
+        {
+          "name": "Archmage",
+          "changes": [
+            "Tier: Gold ⇒ Prismatic"
+          ]
+        },
+        {
+          "name": "Combusting Interest",
+          "changes": [
+            "Percent Gold from Damage: 1% ⇒ 0.75%"
+          ]
+        },
+        {
+          "name": "From Down Town",
+          "changes": [
+            "Added restrictions to the largest Area of Effect size."
+          ]
+        },
+        {
+          "name": "Glass Cannon",
+          "changes": [
+            "True Damage Percent: 15% ⇒ 25% / 15% melee / ranged"
+          ]
+        },
+        {
+          "name": "Pin Cushion",
+          "changes": [
+            "Damage per Nail: 20 - 30 ⇒ 20 - 60"
+          ]
+        },
+        {
+          "name": "Pressure Cooker",
+          "changes": [
+            "Total Burn Damage: 2% max Health ⇒ 1.5% max Health"
+          ]
+        },
+        {
+          "name": "Quickstep",
+          "changes": [
+            "Tier: Prismatic ⇒ Gold"
+          ]
+        },
+        {
+          "name": "Spirit Bomb",
+          "changes": [
+            "Shield Duration: 4s ⇒ 2s"
+          ]
+        },
+        {
+          "name": "Tooth Fairy",
+          "changes": [
+            "Burst Threshold: 20% ⇒ 25%",
+            "Lethality and Magic Penetration: 5 ⇒ 4"
+          ]
+        },
+        {
+          "name": "Twinfire",
+          "changes": [
+            "Critical Chance: 15% ⇒ 25%"
+          ]
+        },
+        {
+          "name": "Void Immolation",
+          "changes": [
+            "Added Passive Desolate: Killing an enemy deals magic damage around them."
+          ]
+        },
+        {
+          "name": "Youch My Coins",
+          "changes": [
+            "Coin Drops: 16 ⇒ 9"
+          ]
+        }
+      ]
+    },
+    {
+      "category": null,
+      "entries": [
+        {
+          "name": "Bugfixes",
+          "changes": [
+            "Fixed a bug where The Biggest Snowball Ever was dealing double damage to the target.",
+            "Fixed a bug where missing Health damage was calculated incorrectly.",
+            "Fixed a bug where two players having Pat on the back can result in infinite shields"
+          ]
+        }
+      ]
+    }
+  ],
+  "arena": [
+    {
+      "category": "Augments",
+      "entries": [
+        {
+          "name": "Buff Buddies",
+          "changes": [
+            "Now counts as a burn source when gaining Red Buff from an ally leveling this augment."
+          ]
+        },
+        {
+          "name": "Calculated Risk",
+          "changes": [
+            "Disabled."
+          ]
+        },
+        {
+          "name": "Chain Lightning",
+          "changes": [
+            "Disabled."
+          ]
+        },
+        {
+          "name": "Chroma Flux",
+          "changes": [
+            "Autocast Cooldown: 15s ⇒ 10s"
+          ]
+        },
+        {
+          "name": "Despoil",
+          "changes": [
+            "Curse Move Speed Ratio: 10% ⇒ 20%"
+          ]
+        },
+        {
+          "name": "Dust To Diamonds (Silver)",
+          "changes": [
+            "New: When removed, gain 2 Prismatic Stat Anvils."
+          ]
+        },
+        {
+          "name": "Final Form",
+          "changes": [
+            "Max Health Shield: 30% / 45% ⇒ 30% / 60%",
+            "Omnivamp: 15% / 20% ⇒ 15% / 25%",
+            "Buff Duration: 5s ⇒ 7.5s"
+          ]
+        },
+        {
+          "name": "Hivemind",
+          "changes": [
+            "Base Damage: 40 - 100 ⇒ 60 - 120"
+          ]
+        },
+        {
+          "name": "Hone Shardblade (Gold)",
+          "changes": [
+            "Can now only appear if you have Shardblade.",
+            "Instantly grants a Stat Anvil and now grants another Stat Anvil every round."
+          ]
+        },
+        {
+          "name": "Juiced",
+          "changes": [
+            "Max Level Mana Threshold: 400 ⇒ 300"
+          ]
+        },
+        {
+          "name": "Nesting Doll",
+          "changes": [
+            "Tier: Gold ⇒ Prismatic"
+          ]
+        },
+        {
+          "name": "Overflow",
+          "changes": [
+            "Max Level Mana Threshold: 400 ⇒ 300"
+          ]
+        },
+        {
+          "name": "Quest: Rite Of The Forge God",
+          "changes": [
+            "Stat Amp: 35% ⇒ 40%"
+          ]
+        },
+        {
+          "name": "Quest: Void Immolation",
+          "changes": [
+            "Area of Effect Damage: True damage ⇒ Magic damage",
+            "Health Scaling: 1.5% total Health ⇒ 3.5% bonus Health",
+            "Added Hollow Radiance-style on-kill burst."
+          ]
+        },
+        {
+          "name": "Spellcraft",
+          "changes": [
+            "Base Damage: 50 ⇒ 100",
+            "Slow per Blue Sticker: 40% ⇒ 45%"
+          ]
+        },
+        {
+          "name": "Upgrade Collector",
+          "changes": [
+            "Level 2 Gold Gained: 500 ⇒ 300",
+            "Level 2 Execution Threshold per stack: 1.5% ⇒ 1.25%",
+            "Max Execute: 27.5% ⇒ 23.75%"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Champions",
+      "entries": [
+        {
+          "name": "Elise",
+          "changes": [
+            "Passive Damage: 12 - 42 ⇒ 15 - 45",
+            "Passive Health on Hit: 6 - 12 ⇒ 10 - 25",
+            "Human E Stun Duration: 1.6 - 2.4 ⇒ 1.9 - 2.5",
+            "Spider E Damage and Healing Amp: 40% - 100% ⇒ 60% - 120%"
+          ]
+        },
+        {
+          "name": "Gnar",
+          "changes": [
+            "W Base Damage: 0 - 40 ⇒ 20 - 60",
+            "E Cooldown: 18 - 8 ⇒ 12 - 8"
+          ]
+        },
+        {
+          "name": "Kayn (Shadow Assassin)",
+          "changes": [
+            "Combat Empowered Duration: 3s ⇒ 4s",
+            "Bonus Magic Damage: 20 - 40% ⇒ 35 - 55%",
+            "Out of Combat Requirement: 8s ⇒ 4s"
+          ]
+        },
+        {
+          "name": "Renata Glasc",
+          "changes": [
+            "W Cooldown: 22 - 18 ⇒ 28 - 24"
+          ]
+        },
+        {
+          "name": "Samira",
+          "changes": [
+            "R Base Damage: 5 / 10 / 15 ⇒ 10 / 15 / 20"
+          ]
+        },
+        {
+          "name": "Swain",
+          "changes": [
+            "R Healing: 15 / 30 / 45 ⇒ 10 / 15 / 20"
+          ]
+        },
+        {
+          "name": "Zeri",
+          "changes": [
+            "Q Attack Speed to Attack Damage over cap: 60% ⇒ 80%",
+            "W Ability Power Ratio: 50% ⇒ 100%",
+            "E Cooldown Reduction on Passive or Q hit: 0.5 ⇒ 0.75",
+            "E Ability Power Ratio: 20% ⇒ 30%",
+            "R Base Bonus Move Speed: 15% ⇒ 20%",
+            "R Move Speed per stack: 1.5% ⇒ 2%"
+          ]
+        },
+        {
+          "name": "Zilean",
+          "changes": [
+            "Removed Arena-specific Q overrides.",
+            "Q Base Damage: 100 - 360 ⇒ 75 - 300",
+            "Q Ability Power Ratio: 100% ⇒ 90%"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Items",
+      "entries": [
+        {
+          "name": "2 Random Stat Shards (Gold)",
+          "changes": [
+            "Grants 2 random Gold Stat Shards.",
+            "Only offered to those dedicated to their craft."
+          ]
+        },
+        {
+          "name": "2 Random Stat Shards (Silver)",
+          "changes": [
+            "Grants 2 random Silver Stat Shards.",
+            "Only offered to those dedicated to their craft."
+          ]
+        },
+        {
+          "name": "Eclipse",
+          "changes": [
+            "Attack Damage: 50 ⇒ 60",
+            "Ability Haste: 10 ⇒ 15",
+            "Max Health Damage: 8% / 5.3% ⇒ 10% / 6.6%"
+          ]
+        },
+        {
+          "name": "Hellfire Hatchet",
+          "changes": [
+            "Attack Damage: 35 ⇒ 40",
+            "Per Target Cooldown: 10s ⇒ 8s"
+          ]
+        },
+        {
+          "name": "Opportunity",
+          "changes": [
+            "Lethality while out of combat: 15 ⇒ 20"
+          ]
+        },
+        {
+          "name": "Perplexity",
+          "changes": [
+            "Maximum Damage Amp Threshold: 2500 ⇒ 3000"
+          ]
+        },
+        {
+          "name": "Wordless Promise",
+          "changes": [
+            "Now counts as a burn for pyromancer's cloak and burn augments",
+            "Cooldown: 60s ⇒ 15s"
+          ]
+        },
+        {
+          "name": "Dragon Heart",
+          "changes": [
+            "Shared Ability Power and Ability Haste: 15% ⇒ 10%",
+            "Cooldown: 60s ⇒ 15s"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Guests of Honor",
+      "entries": [
+        {
+          "name": "Kindred",
+          "changes": [
+            "Lamb Revives: 2 ⇒ 1"
+          ]
+        },
+        {
+          "name": "Locke",
+          "changes": [
+            "New Guest of Honor.",
+            "During each Augment offering, one Augment is offered at a higher tier but is Fractured.",
+            "Fractured augments break into a Stat Anvil after 2 losses.",
+            "Winning 3 rounds with a Fractured augment removes the Fractured keyword."
+          ]
+        },
+        {
+          "name": "Lux",
+          "changes": [
+            "Out of Combat Timer: 5 ⇒ 3",
+            "Shield per level value: 20 ⇒ 25",
+            "Shield per round loss: 75 ⇒ 100"
+          ]
+        },
+        {
+          "name": "Nocturne",
+          "changes": [
+            "Now grants wall walking while inside the darkness zones.",
+            "Number of zones: 1 - 3 ⇒ 3"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Systems",
+      "entries": [
+        {
+          "name": "Round 15",
+          "changes": [
+            "Round Type: Gold round ⇒ Augment round"
+          ]
+        }
+      ]
+    }
+  ]
+}

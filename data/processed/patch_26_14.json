@@ -1,0 +1,528 @@
+{
+  "patch": "26.14",
+  "client": [
+    {
+      "name": "Clash",
+      "changes": [
+        "The MSI Cup will be taking place on Summoner's Rift this patch.",
+        "Registration Begins: July 13, 2026 (11:00AM Local Time).",
+        "Tournament Dates: July 18 and 19, 2026 (~ 4 - 7 PM Local Time, varies by region)."
+      ]
+    },
+    {
+      "name": "Parental Controls",
+      "changes": [
+        "Riot is rolling out optional Parent Permissions to give parents more visibility and control over their child's social interactions in game. Parents can access parental controls by connecting a parent's email address via account control page, where they can limit text and voice chat, block friend requests, and view the social panel friends list. These controls are meant to provide parents with the tools to protect their child's safety."
+      ]
+    },
+    {
+      "name": "Ranked",
+      "changes": [
+        "Ranked Season 2 will end local server time at midnight 23:59 on July 28, 2026, which is the last day of patch 26.14. Several hours later, we'll roll over into patch 26.15, which marks the start of Season 3 at 12:00pm noon, July 29, 2026, local server time.",
+        "Similar to previous mid-year season transitions, Ranked Solo and Flex queues will be disabled during the down time. Shard transfer services will also be disabled to make sure rewards are properly calculated.",
+        "We don't expect any disruptions to your LP / Ranked progression, but the Victorious Ranked mission for 15 ranked games won will be refreshed when the new season starts."
+      ]
+    },
+    {
+      "name": "T1 2025 Worlds Winners",
+      "changes": [
+        "In honor of League's first three-peat world champions, the T1 Worlds Winner skins will follow a slightly different release approach. The Signature Bundles will include the skin, signature icon and border, ward skin, and Elite chroma. As a special bonus, each bundle will also include an exclusive emote inspired by the pros and the skin they helped design. The Worlds Winner Megabundle will include all Signature Bundles, and three megabundle exclusive items: Golden Team Icon, T1 2025 Worlds Winner Lobby Banner, and the \"Three-peat, 1 Dynasty\" Title. All bundles will be available for purchase for two patches, going away at the start of Patch 26.16.",
+        "All skins will also be individually purchasable with RP. T1 Ambessa, Xin Zhao, Galio, Yunara, and Seraphine will cost 1350 RP. The MVP skin this year, MVP T1 Miss Fortune, will also be individually purchasable for 1820 RP. Individual skins will be available in the Shop until the start of patch 26.23.",
+        "Once MVP T1 Miss Fortune leaves the Shop, she will be entered into the Mythic Shop pool in the first patch of 2027. She will have a chance to appear in the rotating or featured section, and she will be priced at 200 Mythic Essence. Acquiring MVP T1 Miss Fortune from the Mythic Shop will not include her Signature Icon or Border. The other Epic skins will leave the store and enter the Loot pool starting with the first patch of 2027.",
+        "In addition to the Elite chromas, there will also be 5 standard chromas available for purchase. The Ruby chroma will be a chroma bundle exclusive, and the others will be available for individual purchase.",
+        "Last, but certainly not least, swing by the Mythic Shop to snag the \"Together as 1\" Nexus Finisher for 250 Mythic Essence. It will be in the Featured section for two patches, leaving at the start of Patch 26.16.",
+        "Riot will share a portion of proceeds with LoL esports teams."
+      ]
+    }
+  ],
+  "game": [
+    {
+      "name": "Buffs",
+      "changes": [
+        "Trimmed redundant buffs that repeat information already clearly communicated elsewhere in the UI or gameplay state (e.g. role quest progress and other obvious state changes).",
+        "Moved most item buffs with durations into the inventory on the item itself.",
+        "Reduced buff bar clutter from lower-impact system, map and item effects that don't meaningfully change player decision-making.",
+        "Removed display of very short-duration debuffs and effects (˜0.25s), including things like minor slows from Honeyfruit pickups."
+      ]
+    },
+    {
+      "name": "Mute",
+      "changes": [
+        "Bug Fix: Deafen and self-mute functionality can now only be toggled once every 60 seconds to prevent spam and disruptive one-way communication."
+      ]
+    },
+    {
+      "name": "Remake",
+      "changes": [
+        "Bug Fix: Remake votes will now begin automatically when they are eligible rather than requiring a player to type /remake in chat. Chat context now explains which player triggered the remake vote and why."
+      ]
+    }
+  ],
+  "champions": [
+    {
+      "name": "Azir",
+      "changes": [
+        {
+          "ability": "Arise!",
+          "details": [
+            "Bug Fix: The following effects are no longer incorrectly affected by the on-attack damage penalty: Hail of Blades , Scorch , Blackfire Torch , Hextech Alternator , Liandry's Torment , Luden's Echo , Scout's Slingshot .",
+            "Bug Fix: Soldier attacks no longer only grant 1 Conqueror stack if the first champion hit was the primary target.",
+            "Bug Fix: Soldier attacks once again apply stacks of Press the Attack to the primary target."
+          ]
+        },
+        {
+          "ability": "Emperor's Divide",
+          "details": [
+            "Bug Fix: Now knocks back jungle monsters."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Caitlyn",
+      "changes": [
+        {
+          "ability": "Headshot",
+          "details": [
+            "Bug Fix: Fixed a bug where it may fail to fire while in brush."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Corki",
+      "changes": [
+        {
+          "ability": "Stats",
+          "details": [
+            "Attack damage growth increased to 2. 5 from 2."
+          ]
+        },
+        {
+          "ability": "Missile Barrage",
+          "details": [
+            "On-hit cooldown reduction increased to 2 – 6 (based on critical strike chance) from 2 – 4 ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Garen",
+      "changes": [
+        {
+          "ability": "Demacian Justice",
+          "details": [
+            "Base damage reduced to 125 / 200 / 275 from 150 / 250 / 350."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jayce",
+      "changes": [
+        {
+          "ability": "Hextech Capacitor",
+          "details": [
+            "Bonus movement speed reduced to 30 from 40."
+          ]
+        },
+        {
+          "ability": "Transform Mercury Hammer",
+          "details": [
+            "Base resistances reduced to 5 / 12 / 19 / 26 (based on level) from 5 / 15 / 25 / 35 (based on level) ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Locke",
+      "changes": [
+        {
+          "ability": "Ritual Nails",
+          "details": [
+            "Base nail damage reduced to 50 / 58 / 66 / 74 / 82 from 50 / 60 / 70 / 80 / 90.",
+            "Stack base bonus damage reduced to 18 / 26 / 34 / 42 / 50 from 20 / 30 / 40 / 50 / 60.",
+            "Recast time reduced to 4 seconds from 5."
+          ]
+        },
+        {
+          "ability": "Soul Ignition",
+          "details": [
+            "Base Grey Health cap reduced to 40 / 70 / 100 / 130 / 160 from 40 / 80 / 120 / 160 / 200."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mordekaiser",
+      "changes": [
+        {
+          "ability": "Death's Grasp",
+          "details": [
+            "Base damage increased to 60 / 80 / 100 / 120 / 140 from 60 / 75 / 90 / 105 / 120.",
+            "AP ratio increased to 45% AP from 40% AP ."
+          ]
+        },
+        {
+          "ability": "Realm of Death",
+          "details": [
+            "Stat steal increased to 13% from 10%."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nami",
+      "changes": [
+        {
+          "ability": "Tidecaller's Blessing",
+          "details": [
+            "Bonus damage per hit increased to 20 / 35 / 50 / 65 / 80 from 20 / 30 / 40 / 50 / 60."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Senna",
+      "changes": [
+        {
+          "ability": "General",
+          "details": [
+            "Critical damage modifier reduced to 80% from 85%."
+          ]
+        },
+        {
+          "ability": "Piercing Darkness",
+          "details": [
+            "Slow AP ratio reduced to 7% per 100 AP from 10% per 100 AP .",
+            "Healing AP ratio reduced to 35% AP from 50% AP ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Seraphine",
+      "changes": [
+        {
+          "ability": "High Note",
+          "details": [
+            "AP ratio reduced to 40% AP from 50% AP ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yunara",
+      "changes": [
+        {
+          "ability": "Stats",
+          "details": [
+            "Attack damage growth increased to 3 from 2. 5 ."
+          ]
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "name": "Fiendish Codex",
+      "changes": [
+        "No longer builds into Hextech Rocketbelt ."
+      ]
+    },
+    {
+      "name": "Hextech Rocketbelt",
+      "changes": [
+        "New Recipe: Hextech Alternator + Kindlegem + Ruby Crystal + 350 = 2650 .",
+        "Old Recipe: Hextech Alternator + Fiendish Codex + Ruby Crystal + 300 = 2650 .",
+        "Ability power reduced to 60 from 70.",
+        "Health increased to 350 from 300.",
+        "Supersonic cooldown increased to 50 seconds from 40."
+      ]
+    },
+    {
+      "name": "Kindlegem",
+      "changes": [
+        "Now builds into Hextech Rocketbelt ."
+      ]
+    },
+    {
+      "name": "Immortal Path",
+      "changes": [
+        "Now and Forever damage increase reduced to 4% from 5%.",
+        "Now and Forever increased healing reduced to 12% from 15%."
+      ]
+    },
+    {
+      "name": "Protoplasm Harness",
+      "changes": [
+        "Total cost increased to 2600 from 2500 .",
+        "Combine cost increased to 900 from 800 .",
+        "Lifeline bonus health reduced to 100 – 300 (based on level) from 200 – 300 (based on level) .",
+        "Lifeline healing reduced to 100 – 400 (based on level) from 200 – 400 (based on level) ."
+      ]
+    }
+  ],
+  "runes": [],
+  "buffs": [
+    {
+      "name": "Crest of Insight",
+      "changes": [
+        "Ability haste increased to 10 / 15 / 20 (based on level) from 10 at all ranks."
+      ]
+    }
+  ],
+  "summoner_spells": [],
+  "monsters": [],
+  "aram_mayhem": [
+    {
+      "category": "Augments",
+      "entries": [
+        {
+          "name": "Dimension Shift",
+          "changes": [
+            "Cooldown: 108s ⇒ 75s",
+            "Attack Damage: 25–100 ⇒ 35–150",
+            "Ability Power: 25–100 ⇒ 35–150",
+            "Health: 200–1000 ⇒ 300–1500",
+            "NEW: Structure Damage: Now deals 1 damage to structures."
+          ]
+        },
+        {
+          "name": "Poro Stampede",
+          "changes": [
+            "Time Between Spawn: 35–20 ⇒ 25–15",
+            "Base Damage: 50–100 ⇒ 100–200"
+          ]
+        },
+        {
+          "name": "Squishy Slappy Grab",
+          "changes": [
+            "Shield Per Slappee: 25–75 ⇒ 35–150"
+          ]
+        },
+        {
+          "name": "Overkill",
+          "changes": [
+            "NEW: Execute: Now executes if the accumulated damage would kill."
+          ]
+        },
+        {
+          "name": "Dropkick",
+          "changes": [
+            "Base Value: 5% ⇒ 4%",
+            "Base Attack Damage Scaling: 0.035% ⇒ 0.055%",
+            "Bonus Health Scaling: 0.002% ⇒ 0.0001%"
+          ]
+        },
+        {
+          "name": "Tooth Fairy",
+          "changes": [
+            "Penetration per Tooth: 4 ⇒ 3"
+          ]
+        },
+        {
+          "name": "Infernal Conduit",
+          "changes": [
+            "Cooldown Reduction on Non-Champions: Enabled ⇒ No longer reduces cooldowns when affecting non-champions"
+          ]
+        },
+        {
+          "name": "Stackosaurus Rex",
+          "changes": [
+            "Effect: Will not affect augment or item effects"
+          ]
+        }
+      ]
+    },
+    {
+      "category": null,
+      "entries": [
+        {
+          "name": "Bugfixes",
+          "changes": [
+            "Fixed a bug where Divine Domain could grant infinite Attack Range.",
+            "Fixed a bug where Combusting Interest did not grant gold to champions' damage over time effects like Darius, Teemo, and Twitch.",
+            "Fixed a bug where Smolder could be offered Combusting Interest.",
+            "Fixed a bug where It's Go Time did not correctly grant bonus move speed with Master Yi's E, Ashe's Q, and Twitch's Q.",
+            "Fixed a bug where High Roller sometimes failed to drop an Anvil when a unit died.",
+            "Fixed a bug where Drop Bear could sometimes die immediately after spawning.",
+            "Fixed a bug where you could still get another active summoner after choosing Shark Tempest and SnowBomb.",
+            "Fixed a bug where Pursuit of Haste was offered to Yasuo E."
+          ]
+        }
+      ]
+    }
+  ],
+  "arena": [
+    {
+      "category": "Champions",
+      "entries": [
+        {
+          "name": "Ambessa",
+          "changes": [
+            "Q1 Base Attack Damage Ratio: 60% ⇒ 45%",
+            "Q2 Base Attack Damage Ratio: 90% ⇒ 70%"
+          ]
+        },
+        {
+          "name": "Gragas",
+          "changes": [
+            "Passive Heal Ratio: 3.5% ⇒ 5.5%",
+            "E Base Damage: 80 - 220 ⇒ 80 - 260"
+          ]
+        },
+        {
+          "name": "Heimerdinger",
+          "changes": [
+            "Q Beam Base Damage: 30 - 90 ⇒ 40 - 120",
+            "Beam Ability Power Ratio: 45% ⇒ 55%"
+          ]
+        },
+        {
+          "name": "Illaoi",
+          "changes": [
+            "Q Passive Tentacle Damage Amplification: 4% - 20% ⇒ 10% - 30%"
+          ]
+        },
+        {
+          "name": "Kled",
+          "changes": [
+            "Passive Mount Cooldown: 15 ⇒ 12",
+            "Bug Fix: Power Flowers now correctly grants courage."
+          ]
+        },
+        {
+          "name": "Locke",
+          "changes": [
+            "Q Cooldown: 10 - 6 ⇒ 8.5 - 4.5",
+            "E Cooldown: 10 ⇒ 8",
+            "E2 Ability Power Ratio: 0.4 ⇒ 0.65",
+            "R Cooldown: 120 - 80 ⇒ 90 - 60"
+          ]
+        },
+        {
+          "name": "Quinn",
+          "changes": [
+            "Passive Harrier Cooldown: 7s - 2.56s ⇒ 5s - 1.83s",
+            "E Cooldown: 12 - 8 ⇒ 10 - 6"
+          ]
+        },
+        {
+          "name": "Rakan",
+          "changes": [
+            "Q Base Damage: 70 - 250 ⇒ 95 - 275"
+          ]
+        },
+        {
+          "name": "Samira",
+          "changes": [
+            "R Damage: 10 / 20 / 30 ⇒ 15 / 30 / 45"
+          ]
+        },
+        {
+          "name": "Skarner",
+          "changes": [
+            "E Move Distance Post Grab: 675 ⇒ 1000",
+            "R Base Damage: 250 - 450 ⇒ 350 - 550",
+            "Move Speed While Active: 40% ⇒ 60%"
+          ]
+        },
+        {
+          "name": "Swain",
+          "changes": [
+            "R Demonic Power Generated per Second While Draining: 20 ⇒ 25",
+            "Demonic Power Lost: 10 ⇒ 15",
+            "Amped Demonic Power Lost After 5s: 15 ⇒ 20"
+          ]
+        },
+        {
+          "name": "Yorick",
+          "changes": [
+            "Q Missing Health Ratio: 3% - 7% ⇒ 6% - 10%",
+            "R Maiden Health Modifier: 70% ⇒ 100%"
+          ]
+        },
+        {
+          "name": "Zoe",
+          "changes": [
+            "Passive Ability Power Ratio: 35% ⇒ 40%",
+            "Q Ability Power Ratio: 0.6 - 1.5 ⇒ 0.7 - 1.75",
+            "W Magic Damage per Bolt: 15 - 55 ⇒ 20 - 80",
+            "R Cooldown: 11 - 5 ⇒ 8 - 2"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Items",
+      "entries": [
+        {
+          "name": null,
+          "changes": [
+            "New: Wildfire Interaction: Now counts Wildfire as a burn"
+          ]
+        },
+        {
+          "name": "Phantom Dancer",
+          "changes": [
+            "Move Speed: 8% - 10% ⇒ 10%",
+            "Attack Speed: 60% ⇒ 65%"
+          ]
+        },
+        {
+          "name": "Kraken Slayer",
+          "changes": [
+            "Attack Speed: 35% ⇒ 40%"
+          ]
+        },
+        {
+          "name": "Navori Flickerblade",
+          "changes": [
+            "Attack Speed: 35% ⇒ 40%"
+          ]
+        },
+        {
+          "name": "Rapid Firecannon",
+          "changes": [
+            "Attack Speed: 30% ⇒ 35%"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Augments",
+      "entries": [
+        {
+          "name": "Divine Intervention",
+          "changes": [
+            "New: Hexbolt Interaction: Cooldown is now reduced by 2 seconds when you trigger Hexbolt",
+            "New: Capstone Interaction: Max Level capstone now triggers even if you are already invulnerable from Divine Intervention",
+            "New: Quantum Computing Interaction: Now properly works with Quantum Computing, and will multicast with a 0.25 second delay between casts, for a max invulnerability duration of 3.5 seconds"
+          ]
+        },
+        {
+          "name": "Jeweled Gauntlet and Vulnerability",
+          "changes": [
+            "Bug Fix: Fixed an issue where having both of these would sometimes prevent a spell from critting",
+            "New: Double Tap Interaction: 5 second per spell cooldown",
+            "New: Critical Rhythm Interaction: 4 second per spell cooldown"
+          ]
+        },
+        {
+          "name": "Twin Fire",
+          "changes": [
+            "Removed: Status: Disabled"
+          ]
+        },
+        {
+          "name": "Upgrade: Collector",
+          "changes": [
+            "Execute Threshold Level 1: 0.75 (16.25%) ⇒ 0.5 (12.5%)",
+            "Execute Threshold Level 2: 1.25 (23.75%) ⇒ 1 (20%)"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1034 @@
+{
+  "patch": "26.12",
+  "client": [
+    {
+      "name": "ARAM Wardrobe",
+      "changes": [
+        "New subscription system for ARAM and ARAM: Mayhem testing on the Brazilian and Oceania servers. Players can pay 1350 to unlock most Epic-tier and below skins for 30 days."
+      ]
+    },
+    {
+      "name": "Draft Queue",
+      "changes": [
+        "We are happy to open up Normal Draft availability for ME, OC and SG from windowed time to 24/7, as we've seen meaningful queue time improvement across regions since late 2025."
+      ]
+    },
+    {
+      "name": "Honor",
+      "changes": [
+        "We are introducing Honor and active penalty information to your social panel so you can easily track your standing, view your progress towards redemption, and see how your behavior impacts your games. The panel will display current Honor, restrictions, and actions you must take to restore standing, serving as a constant reminder of the positive community we are building together."
+      ]
+    },
+    {
+      "name": "Ranked",
+      "changes": [
+        "Apex duo restriction was turned on with S2 start in some regions where the Apex players also got a reset. We are actively monitoring the health of those top tier matches to build confidence and understand what match quality improvements we need to make to re-enable duo for Apex players in those regions, but don't currently feel comfortable in flipping the switch without making some improvements. We will let you know when we're in a state to re-enable."
+      ]
+    }
+  ],
+  "game": [
+    {
+      "name": "Practice Tool",
+      "changes": [
+        "Bug Fix: Fixed a bug where Practice Tool keybinds would fail to save when using WASD Inputs in the Options Menu."
+      ]
+    },
+    {
+      "name": "Role Quests",
+      "changes": [
+        "Toplane Quest",
+        "Teleport Shield health ratio increased to 35% maximum health from 30% . Shield duration reduced to 10 seconds from 30."
+      ]
+    }
+  ],
+  "champions": [
+    {
+      "name": "Aatrox",
+      "changes": [
+        {
+          "ability": "The Darkin Blade",
+          "details": [
+            "Sweetspot bonus damage increased to 75% from 70%."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aurelion Sol",
+      "changes": [
+        {
+          "ability": "Breath of Light",
+          "details": [
+            "Undocumented: Damage dealt by the burst is now tagged as persistent damage ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elise",
+      "changes": [
+        {
+          "ability": "Cocoon",
+          "details": [
+            "Bug Fix: Fixed a bug where it gained ability haste from Imperial Mandate's Control passive."
+          ]
+        },
+        {
+          "ability": "Human Form",
+          "details": [
+            "Bug Fix: Fixed a bug where her human form death animation was played when she died in Spider form."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gwen",
+      "changes": [
+        {
+          "ability": "Snip Snip!",
+          "details": [
+            "Base damage per snip increased to 10 / 14 / 18 / 22 / 26 from 10 / 13. 5 / 17 / 20. 5 / 24."
+          ]
+        },
+        {
+          "ability": "Skip 'n Slash",
+          "details": [
+            "Bonus attack speed increased to 30 / 42. 5 / 55 / 67. 5 / 80% from 20 / 35 / 50 / 65 / 80%."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hwei",
+      "changes": [
+        {
+          "ability": "Devastating Fire",
+          "details": [
+            "AP ratio increased to 80% AP from 70% AP ."
+          ]
+        },
+        {
+          "ability": "Severing Bolt",
+          "details": [
+            "AP ratio increased to 30% AP from 25% AP ."
+          ]
+        },
+        {
+          "ability": "Molten Fissure",
+          "details": [
+            "Slow increased to 35% from 30%."
+          ]
+        },
+        {
+          "ability": "Subject: Torment",
+          "details": [
+            "Cooldown reduced to 12 / 11. 5 / 11 / 10. 5 / 10 seconds from 13 / 12. 5 / 12 / 11. 5 / 11."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jax",
+      "changes": [
+        {
+          "ability": "Leap Strike",
+          "details": [
+            "Mana cost reduced to 50 from 65."
+          ]
+        },
+        {
+          "ability": "Counter Strike",
+          "details": [
+            "Minimum health ratio increased to 4% of target's maximum health from 3. 5 % . Maximum health ratio increased to 8% of target's maximum health from 7% ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LeBlanc",
+      "changes": [
+        {
+          "ability": "Mimic",
+          "details": [
+            "Bug Fix: Fixed a bug where it gained ability haste from Imperial Mandate's Control passive."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lee Sin",
+      "changes": [
+        {
+          "ability": "Stats",
+          "details": [
+            "Attack damage growth reduced to 3. 4 from 3. 7 ."
+          ]
+        },
+        {
+          "ability": "Sonic Wave",
+          "details": [
+            "Base damage reduced to 60 / 90 / 120 / 150 / 180 from 65 / 95 / 125 / 155 / 185.",
+            "Bonus AD ratio reduced to 90% bonus AD from 95% ."
+          ]
+        },
+        {
+          "ability": "Resonating Strike",
+          "details": [
+            "Minimum base damage reduced to 60 / 90 / 120 / 150 / 180 from 65 / 95 / 125 / 155 / 185.",
+            "Minimum bonus AD ratio reduced to 90% bonus AD from 95% ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mordekaiser",
+      "changes": [
+        {
+          "ability": "General",
+          "details": [
+            "Undocumented / Bug fix: Fixed an issue that caused the Recall animation for the Prestige Money Miser Mordekaiser skin's Vivid chroma to incorrectly render one of its textures as a square."
+          ]
+        },
+        {
+          "ability": "Realm of Death",
+          "details": [
+            "Undocumented / New effect: Now has the immobilizing spell tag.",
+            "Undocumented / New effect: Now has the healing spell tag."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Naafiri",
+      "changes": [
+        {
+          "ability": "The Call of the Pack",
+          "details": [
+            "Undocumented / Bug: Is now considered to be an ultimate ability."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Neeko",
+      "changes": [
+        {
+          "ability": "Shapesplitter",
+          "details": [
+            "Bug Fix: Fixed several cases where she would not play the proper homeguard run animation when disguised as Wukong with various skins."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nocturne",
+      "changes": [
+        {
+          "ability": "Duskbringer",
+          "details": [
+            "Base damage reduced to 65 / 105 / 145 / 185 / 225 from 65 / 110 / 155 / 200 / 245."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orianna",
+      "changes": [
+        {
+          "ability": "Stats",
+          "details": [
+            "Base health reduced to 565 from 585."
+          ]
+        },
+        {
+          "ability": "Clockwork Windup",
+          "details": [
+            "Damage increase per stack reduced to 15% from 20%."
+          ]
+        },
+        {
+          "ability": "Command: Shockwave",
+          "details": [
+            "Base damage reduced to 225 / 350 / 475 from 250 / 400 / 550.",
+            "AP ratio increased to 110% AP from 95% AP ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ryze",
+      "changes": [
+        {
+          "ability": "Stats",
+          "details": [
+            "Base health reduced to 620 from 645.",
+            "Base attack damage reduced to 55 from 58."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sylas",
+      "changes": [
+        {
+          "ability": "Chain Lash",
+          "details": [
+            "Initial base damage increased to 40 / 65 / 90 / 115 / 140 from 40 / 60 / 80 / 100 / 120.",
+            "Initial AP ratio increased to 45% AP from 40% AP ."
+          ]
+        },
+        {
+          "ability": "Kingslayer",
+          "details": [
+            "Minimum heal AP ratio increased to 30% AP from 20% AP ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Syndra",
+      "changes": [
+        {
+          "ability": "Stats",
+          "details": [
+            "Base health increased to 583 from 563."
+          ]
+        },
+        {
+          "ability": "Dark Sphere",
+          "details": [
+            "Base damage increased to 90 / 125 / 160 / 195 / 230 from 80 / 115 / 150 / 185 / 220.",
+            "AP ratio increased to 70% AP from 65% AP ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tristana",
+      "changes": [
+        {
+          "ability": "Stats",
+          "details": [
+            "Attack damage growth increased to 3. 4 from 2. 9 ."
+          ]
+        },
+        {
+          "ability": "Rapid Fire",
+          "details": [
+            "Mana cost reduced to 15 / 20 / 25 / 30 / 35 from 30 / 35 / 40 / 45 / 50."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Varus",
+      "changes": [
+        {
+          "ability": "Living Vengeance",
+          "details": [
+            "Attack speed ratio for bonus AD and AP on kill increased to 11% bonus total attack speed from 10% .",
+            "Attack speed ratio for bonus AD and AP on takedown increased to 33% bonus total attack speed from 25% .",
+            "Bonus attack speed on takedown reduced to 30% from 50%."
+          ]
+        },
+        {
+          "ability": "Piercing Arrow",
+          "details": [
+            "Bonus AD ratio reduced to 80% bonus AD from 100% ."
+          ]
+        },
+        {
+          "ability": "Blighted Quiver",
+          "details": [
+            "On-hit base damage reduced to 4 / 13 / 22 / 31 / 40 from 8 / 17 / 26 / 35 / 44."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Xin Zhao",
+      "changes": [
+        {
+          "ability": "Determination",
+          "details": [
+            "Base heal reduced to 2% / 3. 5 % / 5% (based on level) maximum health from 3% / 4% / 5% (based on level) .",
+            "Heal AP ratio reduced to 40% / 50% / 70% (based on level) AP from 45% / 55% / 80% (based on level) AP ."
+          ]
+        },
+        {
+          "ability": "Wind Becomes Lightning",
+          "details": [
+            "Mana cost increased to 60 at all ranks from 60 / 55 / 50 / 45 / 40."
+          ]
+        },
+        {
+          "ability": "Audacious Charge",
+          "details": [
+            "Mana cost increased to 60 from 50."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yuumi",
+      "changes": [
+        {
+          "ability": "Feline Friendship",
+          "details": [
+            "Heal AP ratio increased to 30% AP from 25% AP ."
+          ]
+        },
+        {
+          "ability": "Zoomies",
+          "details": [
+            "Shield AP ratio increased to 40% AP from 30% AP ."
+          ]
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "name": "Bounty of Worlds",
+      "changes": [
+        "Undocumented / New: Now belongs to the Starter item group."
+      ]
+    },
+    {
+      "name": "Bloodsong",
+      "changes": [
+        "Undocumented / New: Now belongs to the Starter item group."
+      ]
+    },
+    {
+      "name": "Celestial Opposition",
+      "changes": [
+        "Undocumented / New: Now belongs to the Starter item group."
+      ]
+    },
+    {
+      "name": "Dream Maker",
+      "changes": [
+        "Undocumented / New: Now belongs to the Starter item group."
+      ]
+    },
+    {
+      "name": "Solstice Sleigh",
+      "changes": [
+        "Undocumented / New: Now belongs to the Starter item group."
+      ]
+    },
+    {
+      "name": "Zaz'Zak's Realmspike",
+      "changes": [
+        "Undocumented / New: Now belongs to the Starter item group."
+      ]
+    },
+    {
+      "name": "Doran's Helm",
+      "changes": [
+        "Bug Fix: The Helping Hand buff is now properly removed when the item is sold or undone."
+      ]
+    },
+    {
+      "name": "Doran's Ring",
+      "changes": [
+        "Bug Fix: The Helping Hand buff is now properly removed when the item is sold or undone."
+      ]
+    },
+    {
+      "name": "Doran's Shield",
+      "changes": [
+        "Bug Fix: The Helping Hand buff is now properly removed when the item is sold or undone."
+      ]
+    },
+    {
+      "name": "Tear of the Goddess",
+      "changes": [
+        "Bug Fix: The Helping Hand buff is now properly removed when the item is sold or undone."
+      ]
+    }
+  ],
+  "runes": [],
+  "buffs": [],
+  "summoner_spells": [
+    {
+      "name": "Smite",
+      "changes": [
+        "Bug Fix: Fixed a bug where dying before it upgraded at 48 seconds would keep it at one charge."
+      ]
+    }
+  ],
+  "monsters": [
+    {
+      "name": "Rift Herald",
+      "changes": [
+        "Bug Fix: Fixed a bug where she would deal magic damage to turrets instead of true damage if the champion driving it had more AP than AD."
+      ]
+    }
+  ],
+  "aram_mayhem": [
+    {
+      "category": null,
+      "entries": [
+        {
+          "name": "What are Ability and Quest Augments?",
+          "changes": [
+            "Ability Augments are Augments that directly upgrade one of your champion's abilities. You'll only ever receive Ability Augments that are usable for your champion.",
+            "For example: Quick Step – Casting your self-targeted AoE ability makes you dash forward (Yes, Garen E and Kennen R are very happy about this!)",
+            "Quest Augments are Augments that grow stronger as you complete specific objectives during the game.",
+            "Previously, Quest Augments only had a single unlock threshold, but in this update we're introducing multi-tier Quest Augments that can evolve multiple times into even stronger versions. Older Quest Augments, like Quest: Steel Your Heart, have also been updated with clearer visuals and requirement tracking in the UI.",
+            "And yes, an Augment can be both a Quest Augment and an Ability Augment! Want your Blitzcrank Q to fire three hooks after powering it up? Good luck escaping that!"
+          ]
+        }
+      ]
+    },
+    {
+      "category": null,
+      "entries": [
+        {
+          "name": "What happened to the Trait System?",
+          "changes": [
+            "We're removing the Trait System for this season."
+          ]
+        }
+      ]
+    },
+    {
+      "category": null,
+      "entries": [
+        {
+          "name": "Earlier this year, we explored how Traits affected player choice and build variety. While some Trait effects, like High Roller and Archmage were very popular, the system also reduced variety in Augment decisions. To preserve the fun parts, we've converted some Trait bonuses into standalone Augments so you can still enjoy their fantasies without being locked into a full Trait.",
+          "changes": [
+            "Archmage - Gold",
+            "High Roller - Prismatic",
+            "Snowday - silver",
+            "Make it Rain >>> Yowch, My Coins! - Gold",
+            "Wee Woo Wee Woo - Gold",
+            "Stackosaurus Rex - Silver"
+          ]
+        }
+      ]
+    },
+    {
+      "category": null,
+      "entries": [
+        {
+          "name": "What about other Augments?",
+          "changes": [
+            "This time around, we're giving extra attention to fighters and tanks. We've added more combat-focused Prismatic Augments to help them survive longer and move through fights more aggressively.",
+            "Having trouble surviving after getting a kill? HellBent lets you revive if you stack it high enough. Looking for a Bel'Veth-style reset fantasy? Rite of Ascension refreshes your cooldowns and heals you on takedowns.",
+            "We've also removed some older Augments that no longer delivered on their gameplay fantasy. Our goal is to rotate the pool to focus more on champion abilities, and make sure every Augment feels exciting to select.",
+            "Overall, our goal with each update is to keep Mayhem feeling fresh, experimental, and full of new discoveries. We wish you the utmost Mayhem and see you on the bridge!"
+          ]
+        }
+      ]
+    },
+    {
+      "category": null,
+      "entries": [
+        {
+          "name": "Removed Augments",
+          "changes": [
+            "???",
+            "Buff Buddies",
+            "Cerberus",
+            "Cheating",
+            "Crack Open That Egg",
+            "Demon's Dance",
+            "Executioner",
+            "Feel the Burn",
+            "Frost Wraith",
+            "Gash",
+            "Grandma Chili Oil",
+            "Hat on a Hat",
+            "Holy Fire",
+            "im a baby kitty",
+            "Keystone Conjurer",
+            "Laser Heal",
+            "Lightning Strikes",
+            "Poro Blaster",
+            "Poro King",
+            "Rabble Rousing",
+            "Red Envelopes",
+            "Repulsor",
+            "Restless Restoration",
+            "Self Destruct",
+            "Slow and Steady",
+            "Snowball Roulette",
+            "Speed Demon",
+            "The Brutalizer",
+            "Tormentor",
+            "Trueshot Prodigy",
+            "Twice Thrice",
+            "Upgrade Hubris",
+            "Upgrade Mikaels",
+            "Upgrade Thornmail",
+            "Void Rift",
+            "Watch Out! Cupcake!",
+            "Weighted Popoffs",
+            "Wind beneath blade"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "New Augments",
+      "entries": [
+        {
+          "name": "Silver Augments",
+          "changes": [
+            "Adaptive Ward",
+            "Don't Change the Channel",
+            "Double Defense",
+            "Forged By The Master",
+            "It's Go Time",
+            "Pursuit of Power",
+            "Quest: Support Main",
+            "Siphon",
+            "Snowday",
+            "Stackosaurus Rex",
+            "Stay Resolute",
+            "Trusty Weapon"
+          ]
+        },
+        {
+          "name": "Gold Augments",
+          "changes": [
+            "Archmage",
+            "BONK!",
+            "Combusting Interest",
+            "Endless Decimation",
+            "From Downtown",
+            "Hide on Bush",
+            "Lil' Extra Help",
+            "Mercy's Strike",
+            "Nature is Healing",
+            "Our Healing",
+            "Overextender",
+            "Pat On The Back",
+            "Porcupine",
+            "Pressure Cooker",
+            "Pursuit of Haste",
+            "Ravenous Bind",
+            "Rejuvenation",
+            "Shark Bait",
+            "Shark Tempest",
+            "Snowblast",
+            "Terrain'd",
+            "Tooth Fairy",
+            "Void Dash",
+            "Warlock Juicebox",
+            "Wee Woo Wee Woo",
+            "Yowch, My Coins!"
+          ]
+        },
+        {
+          "name": "Prismatic Augments",
+          "changes": [
+            "Chain Reaction",
+            "Dimension Shift",
+            "DropBear",
+            "Echo Cast",
+            "En Passant",
+            "Hellbent",
+            "High Roller",
+            "Multishot",
+            "One Trick Pony",
+            "Overloaded",
+            "Pin Cushion",
+            "Poro Stampede",
+            "Quickstep",
+            "Rite of Ascension",
+            "Spellsplit",
+            "Spirit Bomb",
+            "Squishy Slappy Grab",
+            "Surge Field",
+            "Terror",
+            "Titan's Resolve",
+            "Tripleshot"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Augment Adjustments",
+      "entries": [
+        {
+          "name": "Blade Waltz",
+          "changes": [
+            "Will now attempt to re-target the initial target for the final attack so player will be able to land near the initial target"
+          ]
+        },
+        {
+          "name": "Draw Your Sword",
+          "changes": [
+            "AD: 30% bonus increased up to 30% based on Attack Range (500-650) ⇒ 24% bonus increased up to 100% based on Attack Range (500-650)",
+            "AS: 25% bonus increased up to 30% based on Attack Range (500-650) ⇒ 20% bonus increased up to 100% based on Attack Range (500-650)",
+            "HP: 30% bonus increased up to 30% based on Attack Range (500-650) ⇒ 24% bonus increased up to 100% based on Attack Range (500-650)",
+            "MS: 25% bonus increased up to 30% based on Attack Range (500-650) ⇒ 20% bonus increased up to 100% based on Attack Range (500-650)"
+          ]
+        },
+        {
+          "name": "Spin Me Right Round",
+          "changes": [
+            "Grants 400 minimum attack range for those below it"
+          ]
+        }
+      ]
+    }
+  ],
+  "arena": [
+    {
+      "category": "Champions",
+      "entries": [
+        {
+          "name": "Akali",
+          "changes": [
+            "R AP Ratio: 30% ⇒ 40%",
+            "R Cooldown: 120/90/60 ⇒ 90/75/60"
+          ]
+        },
+        {
+          "name": "Brand",
+          "changes": [
+            "Q Stun Duration: 1.75s ⇒ 1.5s",
+            "W Cooldown: 10s-8s ⇒ 12-10s"
+          ]
+        },
+        {
+          "name": "Karthus",
+          "changes": [
+            "Q (reverted to match SR) Base Damage: 60-140 ⇒ 40-116",
+            "Q Ability Power Ratio: 45% ⇒ 35%"
+          ]
+        },
+        {
+          "name": "Lillia",
+          "changes": [
+            "Q Movement Speed Per Stack: 3%-7% ⇒ 2%-6%"
+          ]
+        },
+        {
+          "name": "Nocturne",
+          "changes": [
+            "Passive Cooldown: 12 ⇒ 9s",
+            "W Cooldown: 20s-12s ⇒ 18-10s"
+          ]
+        },
+        {
+          "name": "Pyke",
+          "changes": [
+            "W Cooldown: 14s-10s ⇒ 12s-8s"
+          ]
+        },
+        {
+          "name": "Quinn",
+          "changes": [
+            "W Attack Speed: 30%-70% ⇒ 28-80%",
+            "W Cooldown: 20s-10s ⇒ 14s-10s"
+          ]
+        },
+        {
+          "name": "Talon",
+          "changes": [
+            "E Per Wall Cooldown: 26s-6s ⇒ 16s-0s"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Items",
+      "entries": [
+        {
+          "name": "Banshee's Veil",
+          "changes": [
+            "Cooldown: 40s ⇒ 20s"
+          ]
+        },
+        {
+          "name": "Decapitator",
+          "changes": [
+            "Stack generation now has a melee/ranged split.",
+            "Basic Attack: Melee - 2, Ranged - 1",
+            "Spell cast: Melee - 4, Ranged 3"
+          ]
+        },
+        {
+          "name": "Guardian Angel, Zhonya's Hourglass, Wooglet's Witchcap",
+          "changes": [
+            "These no longer share a lockout, allowing you to buy Guardian Angel with a Stasis item."
+          ]
+        },
+        {
+          "name": "Eclipse",
+          "changes": [
+            "Melee Shield Base Value: 250 ⇒ 300",
+            "Ranged Shield Base Value: 125 ⇒ 150"
+          ]
+        },
+        {
+          "name": "Edge of Night",
+          "changes": [
+            "Cooldown: 20s ⇒ 10s"
+          ]
+        },
+        {
+          "name": "Iceborn Gauntlet",
+          "changes": [
+            "Slow Amount: 25% ⇒ 30%",
+            "AoE Radius: Increased from 300 ⇒ 400",
+            "Ability Haste: 10 ⇒ 15"
+          ]
+        },
+        {
+          "name": "Imperial Mandate",
+          "changes": [
+            "Matches the SR version"
+          ]
+        },
+        {
+          "name": "Kaenic Rookern",
+          "changes": [
+            "Out of Combat Timer: 15s ⇒ 10s"
+          ]
+        },
+        {
+          "name": "Maw of Malmortius",
+          "changes": [
+            "Cooldown: 30s ⇒ 20s"
+          ]
+        },
+        {
+          "name": "Seraph's Embrace",
+          "changes": [
+            "Cooldown: 45s ⇒ 30s"
+          ]
+        },
+        {
+          "name": "Opportunity",
+          "changes": [
+            "Out of Combat Timer: 4s ⇒ 3s"
+          ]
+        },
+        {
+          "name": "Profane Hydra",
+          "changes": [
+            "Cleave Melee Ratio: 40% ⇒ 60%",
+            "Cleave Ranged Ratio: 20% ⇒ 30%"
+          ]
+        },
+        {
+          "name": "Youmus's Ghostblade",
+          "changes": [
+            "Cooldown: 20s ⇒ 10s"
+          ]
+        },
+        {
+          "name": "Prowler's Claw",
+          "changes": [
+            "Cooldown: 25s ⇒ 15s"
+          ]
+        },
+        {
+          "name": "Serylda's Grudge",
+          "changes": [
+            "Attack Damage: 40 ⇒ 50",
+            "Ability Haste: 10 ⇒ 15",
+            "Slow Amount: 30% ⇒ 50%"
+          ]
+        },
+        {
+          "name": "Spectral Cutlass",
+          "changes": [
+            "Attack Damage: 55 ⇒ 60",
+            "Cooldown: 15s ⇒ 5s"
+          ]
+        },
+        {
+          "name": "Sterak's Gage",
+          "changes": [
+            "Cooldown: 30s ⇒ 20s"
+          ]
+        },
+        {
+          "name": "Trinity Force",
+          "changes": [
+            "Health: 333 ⇒ 375",
+            "Attack Damage: 35 ⇒ 40"
+          ]
+        },
+        {
+          "name": "Voltaic Cyclosword",
+          "changes": [
+            "Attack Damage: 55 ⇒ 60",
+            "Lethality: 18 ⇒ 20"
+          ]
+        },
+        {
+          "name": "Zeke's Convergence",
+          "changes": [
+            "Cooldown: 20s ⇒ 15s"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Augments",
+      "entries": [
+        {
+          "name": "Clown College",
+          "changes": [
+            "On-death True Damage is now Magic Damage"
+          ]
+        },
+        {
+          "name": "Dual Wield",
+          "changes": [
+            "On-Attack Damage Applied: 40% ⇒ 40%/50%/60%"
+          ]
+        },
+        {
+          "name": "Ethereal Weapon",
+          "changes": [
+            "Max level increased from 2 ⇒ 3",
+            "On hits at each level 1/2/3"
+          ]
+        },
+        {
+          "name": "Now You See Me",
+          "changes": [
+            "Cooldown 10s/5s ⇒ 5s/0.5s",
+            "Movespeed After Blink: 50% ⇒ 50%/75%"
+          ]
+        },
+        {
+          "name": "Scopiest Weapons",
+          "changes": [
+            "Ranged Values Increased: 75/125/175 ⇒ 90/135/180"
+          ]
+        },
+        {
+          "name": "Self Destruct",
+          "changes": [
+            "Timer: 15s ⇒ 13s"
+          ]
+        },
+        {
+          "name": "Stackosaurus Rex",
+          "changes": [
+            "Now works on permanent Augments and item effects, including:",
+            "Phenomenal Evil",
+            "Infinite Recursion",
+            "Tank Engine",
+            "Heart Steel",
+            "Hubris",
+            "Yun Tal Wild Arrows"
+          ]
+        },
+        {
+          "name": "Upgrade Collector",
+          "changes": [
+            "Max Level Execution Threshold: 2% ⇒ 1.5%"
+          ]
+        },
+        {
+          "name": "Disabled Augments",
+          "changes": [
+            "???",
+            "Adamant",
+            "Bounce of the Poro King",
+            "Devil on Your Shoulder",
+            "Donation",
+            "Upgrade Hubris",
+            "Wind Beneath Blade"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Map and System Changes",
+      "entries": [
+        {
+          "name": "Petricite Grove",
+          "changes": [
+            "Removed the blast cone in the center left of the map",
+            "Bombs are now untargetable while rolling"
+          ]
+        },
+        {
+          "name": "Revives",
+          "changes": [
+            "If you are in a last player standing situation (1v3), you revive allies slightly quicker."
+          ]
+        },
+        {
+          "name": "Vote Phase",
+          "changes": [
+            "Reduced the time it takes before the game checks if all players have voted from: 7s ⇒ 5s"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Guests of Honor",
+      "entries": [
+        {
+          "name": "Vayne",
+          "changes": [
+            "NEW Swindler's Orb: Grants 40% shield reaving on all damage done"
+          ]
+        },
+        {
+          "name": "Kindred",
+          "changes": [
+            "Wolf: Bonus HP 10% ⇒ 15%"
+          ]
+        },
+        {
+          "name": "Evelynn",
+          "changes": [
+            "Health is Set to 50 ⇒ 75"
+          ]
+        },
+        {
+          "name": "Yone",
+          "changes": [
+            "Hunter round win gold increased from 250 to 500"
+          ]
+        },
+        {
+          "name": "Swain",
+          "changes": [
+            "Removed from round 2"
+          ]
+        },
+        {
+          "name": "Nilah",
+          "changes": [
+            "Removed from round 8"
+          ]
+        }
+      ]
+    },
+    {
+      "category": null,
+      "entries": [
+        {
+          "name": "Bugfixes",
+          "changes": [
+            "Fixed a bug that was preventing certain on-hit items from hurting the Bulwark Blossom",
+            "Fixed a bug where Jeweled Gauntlet was not converting Ability Power from ADAPt into Crit Chance",
+            "Fixed a bug where Jeweled Gauntlet was not converting Ability Power from Adaptive Force into Crit Chance",
+            "Fixed a bug where abilities with dashes were still retaining the bonus Ability Haste after Dashing is removed",
+            "Fixed a bug where Trickster Demon was not being triggered on Jhin's Lotus Trap (E)",
+            "Fixed a bug where Bel'Veth attack speed cap was being erroneously set when equipped with augments that are supposed to uncap attack speed",
+            "Fixed a bug where Jinx's attack speed was being erroneously set when equipped with augments that are supposed to uncap attack speed when she triggers her Get Excited! Passive",
+            "Fixed a bug where players could still purchase Sunfire Aegis and Hollow Radiance after completing Quest: Icathia's Fall",
+            "Contract Killer Now correctly displays its capstone effect (mark an additional target) and gold increased when leveling this up."
+          ]
+        }
+      ]
+    }
+  ]
+}
