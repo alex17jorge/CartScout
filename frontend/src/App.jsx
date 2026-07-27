@@ -1,121 +1,121 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import './App.css'
 
+const initialMessages = [
+  {
+    id: 1,
+    role: 'assistant',
+    text: 'Hi! Ask me about champions, items, game systems, or anything else that changed in the latest patches.',
+  },
+]
+
+function SendIcon() {
+  return (
+    <svg
+      aria-hidden="true"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="m5 12 14-7-4 14-3-6-7-1Z" />
+      <path d="m12 13 7-8" />
+    </svg>
+  )
+}
+
 function App() {
-  const [count, setCount] = useState(0)
+  const [messages, setMessages] = useState(initialMessages)
+  const [draft, setDraft] = useState('')
+  const [isLoading, setIsLoading] = useState(false)
+  const [error, setError] = useState('')
+
+  async function handleSubmit(event) {
+    event.preventDefault()
+
+    const message = draft.trim()
+    if (!message || isLoading) return
+
+    const userMessage = { id: Date.now(), role: 'user', text: message }
+    const history = messages.map(({ role, text }) => ({ role, content: text }))
+
+    setMessages((currentMessages) => [...currentMessages, userMessage])
+    setDraft('')
+    setError('')
+    setIsLoading(true)
+
+    try {
+      const response = await fetch('/api/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message, history }),
+      })
+      const data = await response.json()
+
+      if (!response.ok) {
+        throw new Error(data.detail || 'The assistant could not answer.')
+      }
+
+      setMessages((currentMessages) => [
+        ...currentMessages,
+        { id: `${Date.now()}-assistant`, role: 'assistant', text: data.answer },
+      ])
+    } catch (requestError) {
+      setError(requestError.message)
+    } finally {
+      setIsLoading(false)
+    }
+  }
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
+    <main className="app-shell">
+      <header className="site-header">
+        <h1>Patch Notes Buddy</h1>
+      </header>
+
+      <section className="chat" aria-label="Patch notes chat">
+        <div className="messages" aria-live="polite">
+          {messages.map((message) => (
+            <article className={`message message--${message.role}`} key={message.id}>
+              <span className="message-label">
+                {message.role === 'assistant' ? 'Buddy' : 'You'}
+              </span>
+              <p>{message.text}</p>
+            </article>
+          ))}
+          {isLoading && (
+            <article className="message message--assistant">
+              <span className="message-label">Buddy</span>
+              <p className="loading-message">Thinking…</p>
+            </article>
+          )}
         </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
+
+        <form className="composer" onSubmit={handleSubmit}>
+          <label className="sr-only" htmlFor="chat-message">
+            Ask about a patch
+          </label>
+          <input
+            id="chat-message"
+            value={draft}
+            onChange={(event) => setDraft(event.target.value)}
+            placeholder="Ask what changed in patch 26.14..."
+            autoComplete="off"
+            disabled={isLoading}
+          />
+          <button
+            type="submit"
+            disabled={!draft.trim() || isLoading}
+            aria-label="Send message"
+          >
+            <SendIcon />
+          </button>
+        </form>
+        {error && <p className="error-message" role="alert">{error}</p>}
       </section>
-
-      <div className="ticks"></div>
-
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
+    </main>
   )
 }
 
