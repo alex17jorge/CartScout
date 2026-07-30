@@ -7,7 +7,6 @@ from openai import OpenAI
 
 CHUNKS_PATH = Path("data/chunks/patch_chunks.jsonl")
 CHROMA_PATH = Path("data/chroma")
-CHROMA_PATH_LARGE = Path("data/chroma_large")
 
 COLLECTION_NAME = "cartscout-patches-v1"
 EMBEDDING_MODEL = "text-embedding-3-small"
@@ -76,7 +75,7 @@ def clean_metadata(metadata):
 
 def create_embeddings(openai_client, texts):
     response = openai_client.embeddings.create(
-        model=EMBEDDING_MODEL_LARGE,
+        model=EMBEDDING_MODEL,
         input=texts,
         encoding_format="float",
     )
@@ -129,7 +128,7 @@ def main():
 
     openai_client = OpenAI()
 
-    chroma_path_text = str(CHROMA_PATH_LARGE)
+    chroma_path_text = str(CHROMA_PATH)
 
     chroma_client = chromadb.PersistentClient(
         path=chroma_path_text
@@ -139,7 +138,7 @@ def main():
         name=COLLECTION_NAME,
         embedding_function=None,
         metadata={
-            "embedding_model": EMBEDDING_MODEL_LARGE,
+            "embedding_model": EMBEDDING_MODEL,
             "description": "League of Legends patch-note chunks",
         },
     )

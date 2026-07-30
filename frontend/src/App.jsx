@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import './App.css'
 
 const initialMessages = [
@@ -31,6 +31,18 @@ function App() {
   const [draft, setDraft] = useState('')
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState('')
+  const messageListRef = useRef(null)
+
+  useEffect(() => {
+    const messageList = messageListRef.current
+
+    if (messageList) {
+      messageList.scrollTo({
+        top: messageList.scrollHeight,
+        behavior: 'smooth',
+      })
+    }
+  }, [messages, isLoading])
 
   async function handleSubmit(event) {
     event.preventDefault()
@@ -39,7 +51,9 @@ function App() {
     if (!message || isLoading) return
 
     const userMessage = { id: Date.now(), role: 'user', text: message }
-    const history = messages.map(({ role, text }) => ({ role, content: text }))
+    const history = messages
+      .slice(-50)
+      .map(({ role, text }) => ({ role, content: text }))
 
     setMessages((currentMessages) => [...currentMessages, userMessage])
     setDraft('')
@@ -76,7 +90,7 @@ function App() {
       </header>
 
       <section className="chat" aria-label="Patch notes chat">
-        <div className="messages" aria-live="polite">
+        <div className="messages" ref={messageListRef} aria-live="polite">
           {messages.map((message) => (
             <article className={`message message--${message.role}`} key={message.id}>
               <span className="message-label">

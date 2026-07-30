@@ -1,0 +1,881 @@
+{
+  "patch": "26.15",
+  "client": [
+    {
+      "name": "Aegis of Valor",
+      "changes": [
+        "Aegis of Valor no longer reduces LP losses in the case of defeat, and wins award double LP without requiring a minimum mastery score."
+      ]
+    },
+    {
+      "name": "League Classic",
+      "changes": [
+        "Our newest (oldest) game mode is coming to a server near you! Relive the glory days with League Classic . Marvel at what passed for modern graphical fidelity in the 2010s, outplay your opponents with point and click stuns and using old new items like Heart of Gold...!",
+        "Classic features 60 champions using classic versions of their gameplay across League's early history and is an experience that emphasizes strategy over mechanics and stronger consequences, both positive and negative, for your actions."
+      ]
+    },
+    {
+      "name": "Ranked",
+      "changes": [
+        "Ranked Season 3 will start at 12 PM on July 29, 2026 local server time. Victorious Ranked Mission (15 Ranked Games won) will be refreshed with season start, and end of S2 rewards will be distributed shortly after S3 start. Shard transfer service will be temporarily off until S2 rewards are granted.",
+        "Apex Duo Restrictions",
+        "Master players will now be able to duo, but only with players close to them in rank.",
+        "GM, Challenger, and players with GM or Challenger MMR will not be allowed to duo."
+      ]
+    }
+  ],
+  "game": [
+    {
+      "name": "Death Recap",
+      "changes": [
+        "Bug Fix: Fixed a bug where the Death Recap window may not appear when a player dies."
+      ]
+    },
+    {
+      "name": "Role Quests",
+      "changes": [
+        "Bug Fix: Fixed a bug where Mid lane Tier 3 role quest boots could not be refunded with the undo button."
+      ]
+    }
+  ],
+  "champions": [
+    {
+      "name": "Alistar",
+      "changes": [
+        {
+          "ability": "Stats",
+          "details": [
+            "Base movement speed increased to 335 from 330."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bel'Veth",
+      "changes": [
+        {
+          "ability": "General",
+          "details": [
+            "Total attack animation adjusted to feel better at lower attack speeds.",
+            "Model size reduced to 95% from 100%."
+          ]
+        },
+        {
+          "ability": "Stats",
+          "details": [
+            "Base attack speed reduced to 0. 67 from 0. 85 .",
+            "Attack speed ratio reduced to 0. 67 from 0. 85 .",
+            "Base attack damage reduced to 55 from 60.",
+            "Basic attack damage modifier increased to 100% from 75%.",
+            "Attack cast time reduced to 0. 22 from 0. 25 .",
+            "Base armor reduced to 28 from 32.",
+            "Armor growth increased to 5 from 4. 7 .",
+            "Base health reduced to 580 from 610.",
+            "Health growth increased to 110 from 105."
+          ]
+        },
+        {
+          "ability": "Death in Lavender",
+          "details": [
+            "Bonus attack speed after cast: New: Bel'Veth's ability casts grant her 20% bonus attack speed for 3 seconds. Old: Bel'Veth's ability casts each generate 2 stacks of Death in Lavender , lasting for 5 seconds, refreshing on basic attacks and subsequent casts, and stacking up to 6 times. While Bel'Veth has stacks, she becomes ghosted and gains 20% – 40% (based on level) bonus attack speed . Her basic attacks each consume 1 stack.",
+            "Lavender bonus attack speed per stack changed to 0. 1 % – 2% (based on level) from 0. 28 % – 1. 1 % (based on level) ."
+          ]
+        },
+        {
+          "ability": "Void Surge",
+          "details": [
+            "Base dash speed changed to 850 at all ranks from 800 / 850 / 900 / 950 / 1000.",
+            "Cooldown increased to 4 / 3. 25 / 2. 5 / 1. 75 / 1 seconds from 1 at all ranks.",
+            "Monster bonus damage changed to 70 at all ranks from 55 / 65 / 75 / 85 / 95.",
+            "Removed: Damage is no longer modified to 60 / 70 / 80 / 90 / 100% against minions.",
+            "Base damage increased to 12 / 14 / 16 / 18 / 20 from 0 / 5 / 10 / 15 / 20.",
+            "AD ratio increased to 105% AD from 100% AD .",
+            "Attack speed to ability haste conversion reduced to 0. 2 from 0. 25 ."
+          ]
+        },
+        {
+          "ability": "Above and Below",
+          "details": [
+            "Base damage increased to 80 / 140 / 200 / 260 / 320 from 70 / 110 / 150 / 190 / 230.",
+            "AP ratio increased to 150% AP from 125% AP .",
+            "Removed: Damage no longer scales with 100% bonus AD .",
+            "Slow strength reduced to 30% from 50%.",
+            "Slow duration changed to 2 seconds at all ranks from 1. 25 / 1. 5 / 1. 75 / 2 / 2. 25 .",
+            "Knock up duration changed to 0. 6 / 0. 7 / 0. 8 / 0. 9 / 1 seconds from 0. 75 at all ranks."
+          ]
+        },
+        {
+          "ability": "Royal Maelstrom",
+          "details": [
+            "Damage reduction changed to 20 / 30 / 40 / 50 / 60% from 35 / 40 / 45 / 50 / 55%.",
+            "Base life steal increased to 20 / 25 / 30 / 35 / 40% from 20% at all ranks.",
+            "Removed: Gained life steal no longer scales with 100% life steal .",
+            "Base damage per strike increased to 10 / 12 / 14 / 16 / 18 from 6 / 7 / 8 / 9 / 10.",
+            "AD ratio increased to 12% AD from 8% AD .",
+            "Missing health modifier reduced to 0% – 100% (based on target's missing health) from 0% – 300% (based on target's missing health) .",
+            "On-hit effect modifier changed to 12% – 24% (based on target's missing health) from 8% – 32% (based on target's missing health) .",
+            "Bonus attack speed ratio needed for 1 strike changed to 40% from 33. 3 %.",
+            "Cooldown changed to 24 / 21 / 18 / 15 / 12 seconds from 20 / 19 / 18 / 17 / 16.",
+            "Monster damage increased to 200% from 150%."
+          ]
+        },
+        {
+          "ability": "Endless Banquet",
+          "details": [
+            "Passive on-hit application is now on every attack instead of every other attack.",
+            "Passive base damage reduced to 2 / 4 / 6 from 6 / 10 / 14.",
+            "Passive bonus AD ratio reduced to 3% bonus AD from 12% .",
+            "Removed: The mark and stacks no longer expire upon attacking a new target.",
+            "Maximum epic monster stacks reduced to 8 from 10.",
+            "Removed: Void Surge and Royal Maelstrom no longer require Bel'Veth to have attacked the target first for passive application.",
+            "Active damage AP ratio increased to 150% AP from 100% AP .",
+            "Active damage health ratio reduced to 20% of target's missing health from 25% .",
+            "True Form bonus health increased to 100 / 250 / 400 from 100 / 150 / 200.",
+            "True Form health bonus AD ratio increased to 150% bonus AD from 120% .",
+            "True Form health AP ratio increased to 150% AP from 90% AP .",
+            "True Form bonus attack range changed to 25 / 75 / 125 from 75 at all ranks.",
+            "True Form increased total attack speed changed to 5 / 15 / 25% from 10 / 15 / 20%.",
+            "True Form size increased to 10 / 15 / 20% from 10% at all ranks.",
+            "True Form duration: New: Both forms lasts 45s / 90s / infinite at 0 / 40 / 80 stacks. Old: True Form lasts 60 seconds, Enhanced Void Coral lasts 180 seconds.",
+            "Post-cast lockout duration reduced to 0. 25 seconds from 0. 5 ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cassiopeia",
+      "changes": [
+        {
+          "ability": "Petrifying Gaze",
+          "details": [
+            "Bug Fix: Fixed a bug where the VFX didn't match the ability's hitbox."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Diana",
+      "changes": [
+        {
+          "ability": "Lunar Rush",
+          "details": [
+            "Bug Fix: Fixed a bug where it may fail to dash over terrain."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kai'Sa",
+      "changes": [
+        {
+          "ability": "Second Skin",
+          "details": [
+            "Caustic Wounds base damage increased to 4 – 30 (based on level) from 4 – 24 (based on level) .",
+            "Caustic Wounds base damage per Plasma stack before application increased to 1 – 8 (based on level) from 1 – 6 (based on level) ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Locke",
+      "changes": [
+        {
+          "ability": "Stats",
+          "details": [
+            "Base health reduced to 620 from 655."
+          ]
+        },
+        {
+          "ability": "Ritual Nails",
+          "details": [
+            "Base damage reduced to 40 / 48 / 56 / 64 / 72 from 50 / 58 / 66 / 74 / 82."
+          ]
+        },
+        {
+          "ability": "Soul Ignition",
+          "details": [
+            "Bonus movement speed reduced to 40% at all ranks from 40 / 45 / 50 / 55 / 60%.",
+            "Grey Health base value reduced to 40 / 60 / 80 / 100 / 120 from 40 / 70 / 100 / 130 / 160.",
+            "Grey Health AP ratio reduced to 100% AP from 120% AP ."
+          ]
+        },
+        {
+          "ability": "Purgatory",
+          "details": [
+            "Bug Fix: Fixed a bug where it was not recolored when the artifact was reflected by Mel's Rebuttal ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maokai",
+      "changes": [
+        {
+          "ability": "Bramble Smash",
+          "details": [
+            "Bonus monster damage increased to 150 / 160 / 170 / 180 / 190 from 140 / 150 / 160 / 170 / 180.",
+            "AP ratio increased to 50% AP from 40% AP ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mordekaiser",
+      "changes": [
+        {
+          "ability": "Death's Grasp",
+          "details": [
+            "Cooldown reduced to 16 / 14 / 12 / 10 / 8 seconds from 18 / 16 / 14 / 12 / 10."
+          ]
+        },
+        {
+          "ability": "Realm of Death",
+          "details": [
+            "Stolen stats reduced to 10% from 13%.",
+            "Bug Fix: Fixed a bug where ulting a target with health above their post-reduction max HP would lead to increased damage (up to double)."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Naafiri",
+      "changes": [
+        {
+          "ability": "Hounds' Pursuit",
+          "details": [
+            "Base damage reduced to 125 / 200 / 275 from 150 / 225 / 300.",
+            "Bonus AD ratio reduced to 100% bonus AD from 120% ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Neeko",
+      "changes": [
+        {
+          "ability": "Shapesplitter",
+          "details": [
+            "Bug Fix: Fixed a bug which prevented her to disguise as Voidborn Rift Scuttler.",
+            "Bug Fix: Fixed a bug where Pix was always visible as one from Base skin if she disguised as Lulu .",
+            "Bug Fix: Fixed a bug that prevented her from being able to disguise herself as Nidalee's Cougar form and Elise's Spider form.",
+            "Bug Fix: Fixed a bug that prevented her to disguise herself as DJ Sona Concussive and Ethereal Forms.",
+            "Bug Fix: Fixed a bug where if she was disguised as DJ Sona Kinetic form the hair was missing.",
+            "Bug Fix: Fixed a bug that caused horns to be visible inside the head when she was disguised as Smolder ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nilah",
+      "changes": [
+        {
+          "ability": "General",
+          "details": [
+            "Bug Fix: Fixed a bug where her attacks immediately after Formless Blade or Slipstream may not trigger Hail of Blades ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Riven",
+      "changes": [
+        {
+          "ability": "Blade of the Exile",
+          "details": [
+            "Bonus attack damage ratio reduced to 20% bonus AD from 25% ."
+          ]
+        },
+        {
+          "ability": "Wind Slash",
+          "details": [
+            "Bonus AD ratio reduced to 55% bonus AD from 60% ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sylas",
+      "changes": [
+        {
+          "ability": "Chain Lash",
+          "details": [
+            "First lash base damage reduced to 40 / 60 / 80 / 100 / 120 from 40 / 65 / 90 / 115 / 140.",
+            "First lash AP ratio reduced to 40% AP from 45% AP ."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Volibear",
+      "changes": [
+        {
+          "ability": "Thundering Smash",
+          "details": [
+            "Cooldown reduced to 12 / 11. 5 / 11 / 10. 5 / 10 seconds from 14 / 13 / 12 / 11 / 10."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zac",
+      "changes": [
+        {
+          "ability": "Stats",
+          "details": [
+            "Armor growth increased to 5. 2 from 4. 7 ."
+          ]
+        },
+        {
+          "ability": "Elastic Slingshot",
+          "details": [
+            "Cooldown reduced to 21 / 18 / 15 / 12 / 9 seconds from 22 / 19 / 16 / 13 / 10."
+          ]
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "name": "Bastionbreaker",
+      "changes": [
+        "Total cost reduced to 3000 from 3200 .",
+        "Combine cost reduced to 663 from 863 .",
+        "Shaped Charge base damage increased to ( 50 / 25 ) from ( 30 / 15 ) ."
+      ]
+    },
+    {
+      "name": "Terminus",
+      "changes": [
+        "New Effect: Shadow on-hit damage now scales with 10% bonus AD and 10% AP ."
+      ]
+    },
+    {
+      "name": "Yun Tal Wildarrows",
+      "changes": [
+        "Total cost reduced to 3000 from 3100 .",
+        "Combine cost reduced to 750 from 850 .",
+        "Attack speed increased to 45% from 40%."
+      ]
+    },
+    {
+      "name": "Zeke's Convergence",
+      "changes": [
+        "Bug Fix: Fixed a bug where the active effect would not damage monsters."
+      ]
+    }
+  ],
+  "runes": [
+    {
+      "name": "Deathfire Touch",
+      "changes": [
+        "Bug Fix: Fixed a bug where the burn duration could be overwritten when landing an ability with a shorter duration."
+      ]
+    },
+    {
+      "name": "Jack of All Trades",
+      "changes": [
+        "Adaptive force at 5 stacks reduced to 8 from 10.",
+        "Adaptive force at 10 stacks reduced to 12 from 15."
+      ]
+    }
+  ],
+  "buffs": [],
+  "summoner_spells": [],
+  "monsters": [],
+  "aram_mayhem": [
+    {
+      "category": "Champions",
+      "entries": [
+        {
+          "name": "Ahri",
+          "changes": [
+            "Healing: 90% ⇒ 100%"
+          ]
+        },
+        {
+          "name": "Akshan",
+          "changes": [
+            "Damage Dealt: 105% ⇒ 100%",
+            "Damage Taken: 5% ⇒ 0%"
+          ]
+        },
+        {
+          "name": "Alistar",
+          "changes": [
+            "Healing: 80% ⇒ 100%",
+            "Damage Modifier: 95% ⇒ 100%"
+          ]
+        },
+        {
+          "name": "Ambessa",
+          "changes": [
+            "Damage Taken: -5% ⇒ 0%"
+          ]
+        },
+        {
+          "name": "Annie",
+          "changes": [
+            "Shielding: 90% ⇒ 100%",
+            "Damage Taken: -5% ⇒ 0%"
+          ]
+        },
+        {
+          "name": "Ashe",
+          "changes": [
+            "Damage Dealt: 105% ⇒ 100%"
+          ]
+        },
+        {
+          "name": "Corki",
+          "changes": [
+            "Damage Taken: 10% ⇒ 5%"
+          ]
+        },
+        {
+          "name": "Ekko",
+          "changes": [
+            "Damage Dealt: 110% ⇒ 105%"
+          ]
+        },
+        {
+          "name": "Hwei",
+          "changes": [
+            "Damage Dealt to Minions: 60% ⇒ 100%"
+          ]
+        },
+        {
+          "name": "Jhin",
+          "changes": [
+            "Damage Taken: -5% ⇒ 0%"
+          ]
+        },
+        {
+          "name": "Kai'Sa",
+          "changes": [
+            "Damage Taken: 10% ⇒ 0%"
+          ]
+        },
+        {
+          "name": "Kindred",
+          "changes": [
+            "Damage Dealt: 110% ⇒ 100%"
+          ]
+        },
+        {
+          "name": "Kog'Maw",
+          "changes": [
+            "Damage Dealt: 88% ⇒ 90%"
+          ]
+        },
+        {
+          "name": "Lucian",
+          "changes": [
+            "Damage Dealt: 105% ⇒ 100%"
+          ]
+        },
+        {
+          "name": "Malzahar",
+          "changes": [
+            "Damage Dealt to Minions: 60% ⇒ 100%"
+          ]
+        },
+        {
+          "name": "Miss Fortune",
+          "changes": [
+            "Damage Taken: -5% ⇒ 0%"
+          ]
+        },
+        {
+          "name": "Mordekaiser",
+          "changes": [
+            "Damage Taken: -2% ⇒ 0%"
+          ]
+        },
+        {
+          "name": "Morgana",
+          "changes": [
+            "Damage Taken: -10% ⇒ 0%"
+          ]
+        },
+        {
+          "name": "Nasus",
+          "changes": [
+            "Damage Taken: -5% ⇒ 0%"
+          ]
+        },
+        {
+          "name": "Qiyana",
+          "changes": [
+            "Damage Dealt: 115% ⇒ 110%"
+          ]
+        },
+        {
+          "name": "Ryze",
+          "changes": [
+            "Damage Dealt: 105% ⇒ 100%",
+            "Damage Taken: 5% ⇒ 0%"
+          ]
+        },
+        {
+          "name": "Senna",
+          "changes": [
+            "Damage Dealt: 97% ⇒ 100%"
+          ]
+        },
+        {
+          "name": "Singed",
+          "changes": [
+            "Damage Taken: -8% ⇒ 0%"
+          ]
+        },
+        {
+          "name": "Smolder",
+          "changes": [
+            "Ability Haste: -10 ⇒ 0"
+          ]
+        },
+        {
+          "name": "Soraka",
+          "changes": [
+            "Healing: 105% ⇒ 100%"
+          ]
+        },
+        {
+          "name": "Teemo",
+          "changes": [
+            "Ability Haste: -10 ⇒ 0",
+            "Damage Dealt to Minions: 60% ⇒ 100%"
+          ]
+        },
+        {
+          "name": "Trundle",
+          "changes": [
+            "Damage Taken: -5% ⇒ 0%"
+          ]
+        },
+        {
+          "name": "Xin Zhao",
+          "changes": [
+            "Damage Dealt: 95% ⇒ 100%"
+          ]
+        },
+        {
+          "name": "Zilean",
+          "changes": [
+            "Damage Dealt: 105% ⇒ 100%",
+            "Damage Taken: 5% ⇒ 0%"
+          ]
+        },
+        {
+          "name": "Ziggs",
+          "changes": [
+            "Damage Dealt: 87% ⇒ 90%",
+            "Damage Dealt to Minions: 60% ⇒ 100%"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Augments",
+      "entries": [
+        {
+          "name": "Adaptive Ward",
+          "changes": [
+            "Resists per Stack: 5 / 6.25 / 7.5 / 8.75 / 10 ⇒ 7 / 8.25 / 9.5 / 10.75 / 12"
+          ]
+        },
+        {
+          "name": "Squishy Slappy Grab",
+          "changes": [
+            "Cooldown: 45 ⇒ 35"
+          ]
+        },
+        {
+          "name": "Titan's Resolve",
+          "changes": [
+            "Adaptive Force: 25 / 31.25 / 37.5 / 43.75 / 50 ⇒ 25 / 37.5 / 50 / 62.5 / 75",
+            "Armor and Magic Resistance per 10 Stacks: 4 / 5 / 6 / 7 / 8 ⇒ 5 / 6.25 / 7.5 / 8.75 / 10"
+          ]
+        },
+        {
+          "name": "Hellbent",
+          "changes": [
+            "Cooldown: 120 ⇒ 90"
+          ]
+        },
+        {
+          "name": "Earthwake",
+          "changes": [
+            "Base Damage: 70 / 105 / 140 / 175 / 210 ⇒ 90 / 130 / 170 / 210 / 250"
+          ]
+        },
+        {
+          "name": "Endless Decimation",
+          "changes": [
+            "Missing Health Healing: 15% ⇒ 18%"
+          ]
+        },
+        {
+          "name": "Chain Reaction",
+          "changes": [
+            "NEW   Ultimate Ability Damage Increase: Damage increased to 250% for ultimate abilities"
+          ]
+        },
+        {
+          "name": "Critical Missile",
+          "changes": [
+            "Damage per Missile: 20 / 40 / 60 / 80 / 100 ⇒ 15 / 32.5 / 50 / 67.5 / 85"
+          ]
+        },
+        {
+          "name": "Drop Bear",
+          "changes": [
+            "Stun Duration: 1.5s ⇒ 0.5s",
+            "Tibbers Bonus Health: 0 / 1125 / 2250 / 3375 / 4500 ⇒ 1000 / 2375 / 3750 / 5125 / 6500"
+          ]
+        },
+        {
+          "name": "Pat on the Back",
+          "changes": [
+            "NEW   Stacking Availability: Can now be taken by multiple players on the same team"
+          ]
+        },
+        {
+          "name": "Mercy's Strike",
+          "changes": [
+            "NEW   Turret Interaction: Mercy's Strike's buff will be consumed on attacking turrets.",
+            "NEW   Turret Damage: Turrets take 2.5% maximum health damage."
+          ]
+        }
+      ]
+    },
+    {
+      "category": null,
+      "entries": [
+        {
+          "name": "Bugfixes",
+          "changes": [
+            "Fixed a bug where Vel'Koz's (Q) first hit failed to trigger Skilled Sniper.",
+            "Fixed a bug where Anivia's (Q) failed to trigger Skilled Sniper when passing through units.",
+            "Fixed a bug where Locke's (Q) received a refund in between ammo for Skilled Sniper.",
+            "Fixed a bug where you cannot attack during Rite of Ascension possession time.",
+            "Fixed an issue where Morgana's (R) Echo cast always sends the clone towards the bottom of the screen.",
+            "Fixed a bug where Apex Inventor did not reduce Wooglet's Witchcap's cooldown.",
+            "Fixed a bug where Twitch's (R) bolts disappear upon recasting Spray and Pray (R) before the ability ends.",
+            "Fixed a bug where Ekko's (Q) failed to split with Spell Split on missile end.",
+            "Fixed a bug where Combusting Interest failed to generate gold if you have burn items or Augments.",
+            "Fixed a bug where Diadem of Songs does not appear in the shop and builds into section.",
+            "Fixed a bug where Milio's (W) did not grant Support Main quest progress in Mayhem when healing themself or allies.",
+            "Fixed a bug where Locke's (E) second dash did not grant Pursuit of Power or Pursuit of Haste quest progress in Mayhem.",
+            "Fixed a bug where Master Yi's (Q) and Viego's (R) could retain Dashing's Ability Haste in Mayhem after taking Pandora's Box.",
+            "Fixed a bug where Overloaded could be offered to Katarina's (E) and Shaco's (E).",
+            "Fixed a bug where Little Extra Help removed Scoped, Scopier and Scopiest Weapon's VFX after the effect ends.",
+            "Fixed a bug where Nidalee's human-form Javelin Toss (Q) did not trigger Missile Split in Mayhem if the augment was selected while in cougar form.",
+            "Fixed a bug where Pursuit of Haste and Pursuit of Power is offered to Akshan's (E).",
+            "Fixed a bug where Mercy Strike could be offered to non-support champions in Mayhem like Vladimir.",
+            "Fixed a bug where Warding Weapon could still be offered to Akshan's (E) in Mayhem.",
+            "Fixed a bug where Pursuit of Power is offered to Akshan's (E), Draven's (Q), Illaoi's (E), and Malphite's (W).",
+            "Fixed a bug where Trusty Weapon could still be offered to Akshan's (E) in Mayhem."
+          ]
+        }
+      ]
+    }
+  ],
+  "arena": [
+    {
+      "category": "Champions",
+      "entries": [
+        {
+          "name": "Akali",
+          "changes": [
+            "Passive Move Speed: 30 / 37.5 / 45 / 52.5 / 60% ⇒ 40 / 51.25 / 62.5 / 73.75 / 85%",
+            "W - Twilight Shroud Cooldown: 15 ⇒ 15 / 13.75 / 12.5 / 11.25 / 10 Energy Restore: 150 ⇒ 200"
+          ]
+        },
+        {
+          "name": "Bard",
+          "changes": [
+            "W - Caretaker's Shrine Charge Time: 5 seconds ⇒ 2.5 seconds Move Speed Ability Power Ratio: 0.06% ⇒ 0.08%"
+          ]
+        },
+        {
+          "name": "Elise",
+          "changes": [
+            "W - Skittering Frenzy Cooldown: 22 / 21 / 20 / 19 / 18 ⇒ 17 / 16 / 15 / 14 / 13"
+          ]
+        },
+        {
+          "name": "Kai'Sa",
+          "changes": [
+            "Passive - Second Skin Arena On-Hit Damage Modifier: 50% ⇒ 100% Detonation Damage: 10% missing Health ⇒ 15% missing Health Ability Power Ratio: 30% ⇒ 12% Ability Power Ratio per Stack: 5% ⇒ 3%",
+            "Q - Icathian Rain Ability Power Ratio: 15% ⇒ 20%"
+          ]
+        },
+        {
+          "name": "Locke",
+          "changes": [
+            "Passive - Silver Stake Minimum Base Damage: 5 minimum / 40 maximum ⇒ 7.5 minimum / 60 maximum Maximum Base Damage: 10 minimum / 80 maximum ⇒ 15 minimum / 120 maximum",
+            "W - Soul Ignition Base Health Restored: 40 / 70 / 100 / 130 / 160 ⇒ 80 / 140 / 200 / 260 / 320 Maximum Health Restored: 150 / 225 / 300 / 375 / 450 (+60% Ability Power) ⇒ 225 / 337.5 / 450 / 562.5 / 675 (+60% Ability Power)",
+            "R - Purgatory Cooldown Refund: 20% ⇒ 50%"
+          ]
+        },
+        {
+          "name": "Nocturne",
+          "changes": [
+            "Passive - Umbra Blades Base Healing: 13 minimum / 32 maximum ⇒ 15 minimum / 50 maximum Attack Damage Ratio: 120% ⇒ 130% Critical Strike Attack Damage Ratio: 110% ⇒ 120%",
+            "R - Paranoia Cooldown: 140 / 115 / 90 ⇒ 100 / 70 / 40"
+          ]
+        },
+        {
+          "name": "Samira",
+          "changes": [
+            "Taunt Gold Exchange: Lose 1 gold on taunt ⇒ Removed"
+          ]
+        },
+        {
+          "name": "Seraphine",
+          "changes": [
+            "Q - High Note Ability Power Ratio: 65% ⇒ 40%"
+          ]
+        },
+        {
+          "name": "Tahm Kench",
+          "changes": [
+            "E - Thick Skin Damage to Grey Health: 15% minimum / 47% maximum ⇒ 23% minimum / 47% maximum"
+          ]
+        },
+        {
+          "name": "Thresh",
+          "changes": [
+            "Passive - Damnation Souls Gained on Pickup: 1 ⇒ 3",
+            "W - Dark Passage Cooldown: 21 / 20 / 19 / 18 / 17 ⇒ 15 / 14 / 13 / 12 / 11",
+            "E - Flay Damage Ramp-Up Time Between Attacks: 10 seconds ⇒ 5 seconds",
+            "R - The Box Cooldown: 120 / 100 / 80 ⇒ 90 / 60 / 30 Base Damage: 250 / 400 / 550 ⇒ 350 / 500 / 650"
+          ]
+        },
+        {
+          "name": "Twisted Fate",
+          "changes": [
+            "R - Destiny Cooldown: 170 / 140 / 110 ⇒ 40 / 30 / 20 Duration: 3 / 4 / 5 seconds ⇒ 3 / 4 / 5 seconds"
+          ]
+        },
+        {
+          "name": "Warwick",
+          "changes": [
+            "Passive - Eternal Hunger Last Stand Healing Amplification: 250% ⇒ 300%",
+            "W - Blood Hunt Cooldown: 80 / 70 / 60 / 50 / 40 ⇒ 40 / 35 / 30 / 25 / 20",
+            "E - Primal Howl Damage Reduction: 35 / 40 / 45 / 50 / 55% ⇒ 40 / 45 / 50 / 55 / 60%"
+          ]
+        },
+        {
+          "name": "Zac",
+          "changes": [
+            "W - Unstable Matter Arena Cooldown: 6 ⇒ 5"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Items",
+      "entries": [
+        {
+          "name": "Lich Bane",
+          "changes": [
+            "Attack Speed Increase Ability Power Ratio: 66% ⇒ 70%"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Augments",
+      "entries": [
+        {
+          "name": "Demonic Clasp",
+          "changes": [
+            "Maximum Level: 3 ⇒ 2",
+            "Base Damage: 100 minimum / 200 maximum ⇒ 100 minimum / 300 maximum",
+            "Cooldown: 18 ⇒ 12"
+          ]
+        },
+        {
+          "name": "Critical Rhythm",
+          "changes": [
+            "Maximum Level: 3 ⇒ 2"
+          ]
+        },
+        {
+          "name": "HiveMind",
+          "changes": [
+            "Starting Bees: 1 / 2 / 3 ⇒ 2 / 4 / 6",
+            "Attack Damage Ratio: 20% bonus Attack Damage ⇒ 25% total Attack Damage"
+          ]
+        },
+        {
+          "name": "Laser Eyes",
+          "changes": [
+            "Maximum Level: 3 ⇒ 2",
+            "Laser Length: 600 / 800 / 1000 ⇒ 600 / 1000"
+          ]
+        },
+        {
+          "name": "Ok Boomerang",
+          "changes": [
+            "NEW   Level 2 Boomerang Count: Level 2 now fires a second boomerang"
+          ]
+        },
+        {
+          "name": "Ominous Pact",
+          "changes": [
+            "Omnivamp: 15% / 25% ⇒ 20% / 35%",
+            "Move Speed: 50% / 75% ⇒ 50% / 100%"
+          ]
+        },
+        {
+          "name": "Spellwake",
+          "changes": [
+            "Maximum Level: 3 ⇒ 2",
+            "Level 1 Ability Power Ratio: 20% ⇒ 30%",
+            "Level 1 Bonus Attack Damage Ratio: 145% ⇒ 165%",
+            "Level 2 Ability Power Ratio: 20% ⇒ 30%",
+            "Level 2 Bonus Attack Damage Ratio: 165% ⇒ 185%"
+          ]
+        },
+        {
+          "name": "Earthwake",
+          "changes": [
+            "Maximum Level: 3 ⇒ 2"
+          ]
+        },
+        {
+          "name": "Tap Dancer",
+          "changes": [
+            "Maximum Level: 3 ⇒ 2"
+          ]
+        },
+        {
+          "name": "Trueshot Prodigy",
+          "changes": [
+            "Missile Trigger Condition: Triggered off its own missile ⇒ No longer triggers off its own missile"
+          ]
+        },
+        {
+          "name": "Slow and Steady",
+          "changes": [
+            "REMOVED   Status: Removed"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Systems",
+      "entries": [
+        {
+          "name": "Critical Strike to Adaptive Force Conversion",
+          "changes": [
+            "Ratio: 0.68:1 ⇒ 1:1"
+          ]
+        }
+      ]
+    }
+  ]
+}
